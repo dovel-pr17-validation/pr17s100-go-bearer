@@ -1,0 +1,2141 @@
+([]*detections.Detection) (len=93) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=13) "activesupport",
+      Version: (string) (len=7) "6.0.3.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=11) "addressable",
+      Version: (string) (len=5) "2.8.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(12),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(12),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=13) "coffee-script",
+      Version: (string) (len=5) "2.4.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(15),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(15),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=20) "coffee-script-source",
+      Version: (string) (len=6) "1.11.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(16),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(16),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=9) "colorator",
+      Version: (string) (len=5) "1.1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(17),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(17),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=12) "commonmarker",
+      Version: (string) (len=7) "0.17.13"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(19),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=15) "concurrent-ruby",
+      Version: (string) (len=5) "1.1.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(20),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(20),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=7) "dnsruby",
+      Version: (string) (len=6) "1.61.5"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(22),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(22),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=12) "em-websocket",
+      Version: (string) (len=5) "0.5.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(25),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(25),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=5) "ethon",
+      Version: (string) (len=6) "0.12.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(27),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(27),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=12) "eventmachine",
+      Version: (string) (len=5) "1.2.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(28),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(28),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "execjs",
+      Version: (string) (len=5) "2.7.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(29),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(29),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=7) "faraday",
+      Version: (string) (len=5) "1.3.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(33),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(33),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=16) "faraday-net_http",
+      Version: (string) (len=5) "1.0.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(34),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(34),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=3) "ffi",
+      Version: (string) (len=6) "1.14.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(35),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(35),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=20) "forwardable-extended",
+      Version: (string) (len=5) "2.6.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "gemoji",
+      Version: (string) (len=5) "3.0.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(37),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(37),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=12) "github-pages",
+      Version: (string) (len=3) "209"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(81),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(81),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=25) "github-pages-health-check",
+      Version: (string) (len=6) "1.16.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(87),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(87),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=13) "html-pipeline",
+      Version: (string) (len=6) "2.14.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(90),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(90),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=14) "http_parser.rb",
+      Version: (string) (len=5) "0.6.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(91),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(91),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=4) "i18n",
+      Version: (string) (len=5) "0.9.5"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(93),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(93),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "jekyll",
+      Version: (string) (len=5) "3.9.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(106),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(106),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=13) "jekyll-avatar",
+      Version: (string) (len=5) "0.7.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(108),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(108),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "jekyll-coffeescript",
+      Version: (string) (len=5) "1.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(111),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(111),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=17) "jekyll-commonmark",
+      Version: (string) (len=5) "1.3.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(114),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(114),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=25) "jekyll-commonmark-ghpages",
+      Version: (string) (len=5) "0.1.6"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(118),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(118),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=21) "jekyll-default-layout",
+      Version: (string) (len=5) "0.1.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(120),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(120),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=11) "jekyll-feed",
+      Version: (string) (len=6) "0.15.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(122),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(122),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=11) "jekyll-gist",
+      Version: (string) (len=5) "1.5.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(124),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(124),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=22) "jekyll-github-metadata",
+      Version: (string) (len=6) "2.13.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(127),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(127),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=15) "jekyll-mentions",
+      Version: (string) (len=5) "1.6.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(130),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(130),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=28) "jekyll-optional-front-matter",
+      Version: (string) (len=5) "0.3.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(132),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(132),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=15) "jekyll-paginate",
+      Version: (string) (len=5) "1.1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(133),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(133),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "jekyll-readme-index",
+      Version: (string) (len=5) "0.3.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(135),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(135),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=20) "jekyll-redirect-from",
+      Version: (string) (len=6) "0.16.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(137),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(137),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=21) "jekyll-relative-links",
+      Version: (string) (len=5) "0.6.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(139),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(139),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "jekyll-remote-theme",
+      Version: (string) (len=5) "0.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(144),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(144),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=21) "jekyll-sass-converter",
+      Version: (string) (len=5) "1.5.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(146),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(146),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=14) "jekyll-seo-tag",
+      Version: (string) (len=5) "2.6.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(148),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(148),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=14) "jekyll-sitemap",
+      Version: (string) (len=5) "1.4.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(150),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(150),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=12) "jekyll-swiss",
+      Version: (string) (len=5) "1.0.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(151),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(151),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=22) "jekyll-theme-architect",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(154),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(154),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "jekyll-theme-cayman",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(157),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(157),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=18) "jekyll-theme-dinky",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(160),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(160),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "jekyll-theme-hacker",
+      Version: (string) (len=5) "0.1.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(163),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(163),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=21) "jekyll-theme-leap-day",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(166),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(166),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "jekyll-theme-merlot",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(169),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(169),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=21) "jekyll-theme-midnight",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(172),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(172),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=20) "jekyll-theme-minimal",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(175),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(175),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=22) "jekyll-theme-modernist",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(178),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(178),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "jekyll-theme-primer",
+      Version: (string) (len=5) "0.5.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(182),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(182),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=18) "jekyll-theme-slate",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(185),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(185),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=20) "jekyll-theme-tactile",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(188),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(188),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=25) "jekyll-theme-time-machine",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(191),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(191),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=27) "jekyll-titles-from-headings",
+      Version: (string) (len=5) "0.5.3"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(193),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(193),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=12) "jekyll-watch",
+      Version: (string) (len=5) "2.2.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(195),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(195),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "jemoji",
+      Version: (string) (len=6) "0.12.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(199),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(199),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=8) "kramdown",
+      Version: (string) (len=5) "2.3.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(201),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(201),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=19) "kramdown-parser-gfm",
+      Version: (string) (len=5) "1.1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(203),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(203),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "liquid",
+      Version: (string) (len=5) "4.0.3"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(204),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(204),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "listen",
+      Version: (string) (len=5) "3.4.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(207),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(207),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=9) "mercenary",
+      Version: (string) (len=5) "0.3.6"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(208),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(208),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=13) "mini_portile2",
+      Version: (string) (len=5) "2.6.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(209),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(209),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "minima",
+      Version: (string) (len=5) "2.5.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(213),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(213),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=8) "minitest",
+      Version: (string) (len=6) "5.14.3"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(214),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(214),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=14) "multipart-post",
+      Version: (string) (len=5) "2.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(215),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(215),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=8) "nokogiri",
+      Version: (string) (len=6) "1.12.5"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(218),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(218),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=7) "octokit",
+      Version: (string) (len=6) "4.20.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(221),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(221),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=8) "pathutil",
+      Version: (string) (len=6) "0.16.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(223),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(223),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=13) "public_suffix",
+      Version: (string) (len=5) "3.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(224),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(224),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=4) "racc",
+      Version: (string) (len=5) "1.5.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(225),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(225),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=10) "rb-fsevent",
+      Version: (string) (len=6) "0.10.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(226),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(226),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=10) "rb-inotify",
+      Version: (string) (len=6) "0.10.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(228),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(228),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=5) "rexml",
+      Version: (string) (len=5) "3.2.5"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(229),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(229),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=5) "rouge",
+      Version: (string) (len=6) "3.23.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(230),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(230),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=9) "ruby-enum",
+      Version: (string) (len=5) "0.8.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(232),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(232),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=14) "ruby2_keywords",
+      Version: (string) (len=5) "0.0.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(233),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(233),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=7) "rubyzip",
+      Version: (string) (len=5) "2.3.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(234),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(234),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=9) "safe_yaml",
+      Version: (string) (len=5) "1.0.5"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(235),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(235),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=4) "sass",
+      Version: (string) (len=5) "3.7.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(237),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(237),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=11) "sass-listen",
+      Version: (string) (len=5) "4.0.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(240),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(240),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "sawyer",
+      Version: (string) (len=5) "0.8.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(243),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(243),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=9) "simpleidn",
+      Version: (string) (len=5) "0.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(245),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(245),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=14) "terminal-table",
+      Version: (string) (len=5) "1.8.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(247),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(247),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=11) "thread_safe",
+      Version: (string) (len=5) "0.3.6"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(248),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(248),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=8) "typhoeus",
+      Version: (string) (len=5) "1.4.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(250),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(250),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=6) "tzinfo",
+      Version: (string) (len=5) "1.2.9"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(252),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(252),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=3) "unf",
+      Version: (string) (len=5) "0.1.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(254),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(254),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=7) "unf_ext",
+      Version: (string) (len=7) "0.0.7.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(255),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(255),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=21) "unicode-display_width",
+      Version: (string) (len=5) "1.7.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(256),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(256),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=7) "webrick",
+      Version: (string) (len=5) "1.7.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gemfile-lock",
+    DetectorLanguage: (detectors.Language) (len=4) "ruby",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Gemfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=12) "Gemfile.lock",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(257),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(257),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=8) "rubygems",
+      Group: (string) "",
+      Name: (string) (len=8) "zeitwerk",
+      Version: (string) (len=5) "2.4.2"
+    }
+  })
+}

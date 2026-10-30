@@ -1,0 +1,139 @@
+package ignore
+
+import (
+	"io/fs"
+	"os"
+	"path/filepath"
+	"strings"
+
+	"github.com/bearer/bearer/pkg/commands/process/settings"
+	"github.com/hhatto/gocloc"
+	"github.com/rs/zerolog/log"
+	ignore "github.com/sabhiram/go-gitignore"
+)
+
+type FileIgnore struct {
+	ignorer *ignore.GitIgnore
+	config  settings.Config
+}
+
+func New(projectPath string, config settings.Config) *FileIgnore {
+	return &FileIgnore{
+		ignorer: ignorerFromStrings(config.Scan.SkipPath),
+		config:  config,
+	}
+}
+
+func (fileignore *FileIgnore) Ignore(
+	projectPath string,
+	filePath string,
+	goclocResult *gocloc.Result,
+	fileInfo fs.FileInfo,
+) bool {
+	relativePath := strings.TrimPrefix(filePath, projectPath)
+	trimmedPath := strings.TrimPrefix(relativePath, "/")
+
+	symlink, _ := isSymlink(filePath)
+	if symlink {
+		log.Debug().Msgf("skipping symlink: %s %s", projectPath, relativePath)
+		return true
+	}
+
+	if fileignore.ignorer.MatchesPath(trimmedPath) {
+		log.Debug().Msgf("file ignore match: %s %s", projectPath, relativePath)
+		return true
+	}
+
+	if !fileInfo.IsDir() {
+		maxSize := fileignore.config.Worker.FileSizeMaximum
+		if maxSize > 0 && fileInfo.Size() > int64(maxSize) {
+			log.Debug().Msgf("skipping file due to size: %s %s", projectPath, relativePath)
+			return true
+		}
+		if isMinified(filePath, fileInfo.Size(), goclocResult) {
+			log.Debug().Msgf("skipping file (suspected minified JS): %s %s", projectPath, relativePath)
+			return true
+		}
+		if fileignore.skipByLanguage(filePath, goclocResult) {
+			log.Debug().Msgf("skipping file (language not in --language filter): %s %s", projectPath, relativePath)
+			return true
+		}
+	}
+
+	dirTrimmedPath := filepath.Dir(trimmedPath)
+	dirPath := filepath.Join(projectPath, dirTrimmedPath)
+
+	// No parent directory, allow
+	if dirTrimmedPath == "." || dirTrimmedPath[len(dirTrimmedPath)-1] == filepath.Separator {
+		return false
+	}
+
+	dirInfo, err := os.Stat(dirPath)
+	if err != nil {
+		log.Debug().Msgf("error getting dir stat %s: %s", dirPath, err)
+		return true
+	}
+
+	return fileignore.Ignore(
+		projectPath,
+		dirPath,
+		goclocResult,
+		dirInfo,
+	)
+}
+
+// skipByLanguage reports whether a file should be ignored because of the
+// --language restriction. When no languages are requested it never skips.
+// Otherwise the gocloc result has already been restricted to the requested
+// languages upstream, so any file absent from it is not one of those languages
+// (a different language or unrecognised) and is skipped.
+func (fileignore *FileIgnore) skipByLanguage(fullPath string, goclocResult *gocloc.Result) bool {
+	if len(fileignore.config.Scan.Language) == 0 {
+		return false
+	}
+
+	if goclocResult == nil {
+		return true
+	}
+
+	return goclocResult.Files[fullPath] == nil
+}
+
+func isMinified(fullPath string, size int64, goclocResult *gocloc.Result) bool {
+	if strings.HasSuffix(fullPath, ".min.js") {
+		return true
+	}
+
+	if strings.HasSuffix(fullPath, "-min.js") {
+		return true
+	}
+
+	if strings.HasSuffix(fullPath, ".js") {
+		goclocFileResult := goclocResult.Files[fullPath]
+
+		if goclocFileResult == nil {
+			// couldn't find file
+			return false
+		}
+
+		if goclocFileResult.Blanks == 0 && goclocFileResult.Comments == 0 && size > int64(5000) {
+			// > 5KB JS file with no blank lines or comments -> assume minified
+			return true
+		}
+	}
+
+	return false
+}
+
+func isSymlink(path string) (bool, error) {
+	fileInfo, err := os.Lstat(path)
+	if err != nil {
+		return false, err
+	}
+
+	return fileInfo.Mode()&os.ModeSymlink == os.ModeSymlink, nil
+}
+
+func ignorerFromStrings(paths []string) *ignore.GitIgnore {
+	return ignore.CompileIgnoreLines(paths...)
+}

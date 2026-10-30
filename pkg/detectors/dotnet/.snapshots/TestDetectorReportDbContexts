@@ -1,0 +1,65 @@
+([]*detections.FrameworkDetection) (len=3) {
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "dotnet",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=10) "Startup.cs",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "C#",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(22),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(34),
+      Text: (*string)(<nil>)
+    },
+    Value: (dotnet.DBContext) {
+      UseDbMethodName: (string) (len=12) "UseSqlServer",
+      TypeName: (string) (len=17) "UtilizadorContext"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "dotnet",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=17) "nested/Startup.cs",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "C#",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(35),
+      StartColumnNumber: (*int)(22),
+      EndLineNumber: (*int)(35),
+      EndColumnNumber: (*int)(34),
+      Text: (*string)(<nil>)
+    },
+    Value: (dotnet.DBContext) {
+      UseDbMethodName: (string) (len=12) "UseSqlServer",
+      TypeName: (string) (len=16) "CategoriaContext"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "dotnet",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=17) "nested/Startup.cs",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "C#",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(22),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(34),
+      Text: (*string)(<nil>)
+    },
+    Value: (dotnet.DBContext) {
+      UseDbMethodName: (string) (len=12) "UseSqlServer",
+      TypeName: (string) (len=23) "CategoriaReceitaContext"
+    }
+  })
+}

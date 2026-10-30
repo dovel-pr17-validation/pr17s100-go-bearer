@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Ambassador",
+  "type": "external_service",
+  "urls": [],
+  "packages": [
+    {
+      "name": "github.com/datawire/ambassador",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "3b1d8641-4ed0-4315-9389-5d0e2e6dce4e",
+  "sub_type": "third_party"
+}

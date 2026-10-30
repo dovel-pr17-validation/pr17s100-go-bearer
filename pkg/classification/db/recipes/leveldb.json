@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "LevelDB",
+  "type": "data_store",
+  "urls": [],
+  "packages": [
+    {
+      "name": "github.com/syndtr/goleveldb",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "2690be23-9c8e-4a47-a78a-0e2008c5315a",
+  "sub_type": "database"
+}

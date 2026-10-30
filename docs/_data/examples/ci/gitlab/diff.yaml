@@ -1,0 +1,7 @@
+bearer_mr:
+  only:
+    - merge_requests
+  image:
+    name: bearer/bearer
+    entrypoint: [""]
+  script: bearer scan --diff .

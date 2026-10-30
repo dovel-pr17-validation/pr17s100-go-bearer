@@ -1,0 +1,14 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Assurcard",
+  "type": "external_service",
+  "urls": [
+    "https://insurer.soap.assurcard.be",
+    "https://insurer.assurcard.be",
+    "https://testinsurer.soap.assurcard.be",
+    "https://testinsurer.assurcard.be"
+  ],
+  "packages": [],
+  "uuid": "25c4fef8-b90b-47dd-b322-f4ed55fbb9dc",
+  "sub_type": "third_party"
+}

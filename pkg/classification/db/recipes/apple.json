@@ -1,0 +1,19 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Apple",
+  "type": "external_service",
+  "urls": [
+    "https://cdn.apple-mapkit.com",
+    "https://cdn.apple-cloudkit.com",
+    "https://api.searchads.apple.com",
+    "https://js-cdn.music.apple.com",
+    "https://api.storekit.itunes.apple.com",
+    "https://api.appstoreconnect.apple.com",
+    "https://appleid.cdn-apple.com/appleauth/static/jsapi",
+    "https://api.music.apple.com",
+    "https://api.storekit-sandbox.itunes.apple.com"
+  ],
+  "packages": [],
+  "uuid": "e61910ab-fb33-4b55-948e-6ffe189c230c",
+  "sub_type": "third_party"
+}

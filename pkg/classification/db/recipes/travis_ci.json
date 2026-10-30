@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Travis CI",
+  "type": "external_service",
+  "urls": [
+    "https://api.travis-ci.org"
+  ],
+  "packages": [],
+  "uuid": "1ecea394-a7da-4f4e-8a3e-76d10e32556a",
+  "sub_type": "third_party"
+}

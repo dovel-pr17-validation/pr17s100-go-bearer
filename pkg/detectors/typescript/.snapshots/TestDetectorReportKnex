@@ -1,0 +1,84 @@
+([]*detections.FrameworkDetection) (len=4) {
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    FrameworkType: (frameworks.Type) (len=13) "knex_function",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "datatype_knex.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(1),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(39),
+      Text: (*string)(<nil>)
+    },
+    Value: (knex.Function) {
+      DataType: (string) (len=4) "User"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    FrameworkType: (frameworks.Type) (len=13) "knex_function",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "datatype_knex.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(5),
+      StartColumnNumber: (*int)(1),
+      EndLineNumber: (*int)(9),
+      EndColumnNumber: (*int)(6),
+      Text: (*string)(<nil>)
+    },
+    Value: (knex.Function) {
+      DataType: (string) (len=4) "User"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    FrameworkType: (frameworks.Type) (len=11) "knex_schema",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "datatype_knex.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(20),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(20),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)(<nil>)
+    },
+    Value: (knex.Schema) {
+      DataType: (string) (len=6) ": User",
+      PropertyName: (string) (len=5) "users"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    FrameworkType: (frameworks.Type) (len=11) "knex_schema",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "datatype_knex.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(21),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(25),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)(<nil>)
+    },
+    Value: (knex.Schema) {
+      DataType: (string) (len=161) ": Knex.CompositeTableType<\n        User,\n        Pick<User, 'name'> & Partial<Pick<User, 'created_at' | 'updated_at'>>,\n        Partial<Omit<User, 'id'>>\n      >",
+      PropertyName: (string) (len=15) "users_composite"
+    }
+  })
+}

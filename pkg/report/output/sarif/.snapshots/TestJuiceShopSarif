@@ -1,0 +1,1282 @@
+{
+	"$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+	"version": "2.1.0",
+	"runs": [
+		{
+			"tool": {
+				"driver": {
+					"name": "Bearer",
+					"rules": [
+						{
+							"id": "rule_1",
+							"name": "rule_1",
+							"shortDescription": {
+								"text": "rule 1"
+							},
+							"fullDescription": {
+								"text": "rule 1"
+							},
+							"defaultConfiguration": {
+								"level": "error"
+							},
+							"help": {
+								"text": "## Rule 1\nremediation message",
+								"markdown": "## Rule 1\nremediation message"
+							}
+						}
+					]
+				}
+			},
+			"results": [
+				{
+					"ruleId": "javascript_express_path_traversal",
+					"message": {
+						"text": "Possible path traversal vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/dataErasure.ts"
+								},
+								"region": {
+									"startLine": 69,
+									"startColumn": 32,
+									"endColumn": 61,
+									"endLine": 69
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "730d1c5106516470d1853a35c4aca01b_0"
+					}
+				},
+				{
+					"ruleId": "javascript_express_path_traversal",
+					"message": {
+						"text": "Possible path traversal vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/keyServer.ts"
+								},
+								"region": {
+									"startLine": 14,
+									"startColumn": 20,
+									"endColumn": 57,
+									"endLine": 14
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "f0fdc8f875e9b77313305edb186aec62_1"
+					}
+				},
+				{
+					"ruleId": "javascript_express_path_traversal",
+					"message": {
+						"text": "Possible path traversal vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/logfileServer.ts"
+								},
+								"region": {
+									"startLine": 14,
+									"startColumn": 20,
+									"endColumn": 47,
+									"endLine": 14
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "51001ae13fdae4f062cec51a842161b2_2"
+					}
+				},
+				{
+					"ruleId": "javascript_express_path_traversal",
+					"message": {
+						"text": "Possible path traversal vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/quarantineServer.ts"
+								},
+								"region": {
+									"startLine": 14,
+									"startColumn": 20,
+									"endColumn": 57,
+									"endLine": 14
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "a59cb4c55fa6ab0b98f1f061b0262ee1_3"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_hardcoded_secret",
+					"message": {
+						"text": "Hardcoded secret detected"
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "lib/insecurity.ts"
+								},
+								"region": {
+									"startLine": 43,
+									"startColumn": 34,
+									"endColumn": 89,
+									"endLine": 43
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d699b64784f6ca1135369f86e4b64ecb_0"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_hardcoded_secret",
+					"message": {
+						"text": "Hardcoded secret detected"
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "lib/insecurity.ts"
+								},
+								"region": {
+									"startLine": 166,
+									"startColumn": 16,
+									"endColumn": 55,
+									"endLine": 166
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d699b64784f6ca1135369f86e4b64ecb_1"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_http_url_using_user_input",
+					"message": {
+						"text": "HTTP communication with user-controlled destination detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/profileImageUrlUpload.ts"
+								},
+								"region": {
+									"startLine": 22,
+									"startColumn": 30,
+									"endColumn": 20,
+									"endLine": 23
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "8ed612ce6d89f70e214b65244f8793b4_0"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_jwt_hardcoded_secret",
+					"message": {
+						"text": "Hardcoded JWT secret detected"
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "lib/insecurity.ts"
+								},
+								"region": {
+									"startLine": 55,
+									"startColumn": 36,
+									"endColumn": 112,
+									"endLine": 55
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "50ebccec98d14333da6adb3b94c79730_0"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_session",
+					"message": {
+						"text": "Sensitive data stored in HTML local storage detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "frontend/src/app/login/login.component.ts"
+								},
+								"region": {
+									"startLine": 102,
+									"startColumn": 7,
+									"endColumn": 53,
+									"endLine": 102
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "f9657c5f0e228532df66e6987928ea19_0"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/dbSchemaChallenge_1.ts"
+								},
+								"region": {
+									"startLine": 5,
+									"startColumn": 5,
+									"endColumn": 163,
+									"endLine": 5
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "2422999ee983c379479a0d13296d2b45_0"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/dbSchemaChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 11,
+									"startColumn": 5,
+									"endColumn": 161,
+									"endLine": 11
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "8014e30891e8e3cb3c4a378fcf1afa38_1"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/loginAdminChallenge_1.ts"
+								},
+								"region": {
+									"startLine": 20,
+									"startColumn": 5,
+									"endColumn": 208,
+									"endLine": 20
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "e3d18d5f0ca1f301fa884039dc723bf6_2"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/loginBenderChallenge_1.ts"
+								},
+								"region": {
+									"startLine": 20,
+									"startColumn": 5,
+									"endColumn": 208,
+									"endLine": 20
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "4b0883d52334dfd9a4acce2fcf810121_3"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/loginBenderChallenge_4.ts"
+								},
+								"region": {
+									"startLine": 17,
+									"startColumn": 5,
+									"endColumn": 209,
+									"endLine": 17
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "4a25d479d29e305cf7b9b7181f917eb8_4"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/loginJimChallenge_2.ts"
+								},
+								"region": {
+									"startLine": 17,
+									"startColumn": 5,
+									"endColumn": 209,
+									"endLine": 17
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "df98e54f62e0cc9172446bbd0361c29c_5"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/loginJimChallenge_4.ts"
+								},
+								"region": {
+									"startLine": 20,
+									"startColumn": 5,
+									"endColumn": 208,
+									"endLine": 20
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "1b0805db0c0342c03908f442d4972b13_6"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/unionSqlInjectionChallenge_1.ts"
+								},
+								"region": {
+									"startLine": 6,
+									"startColumn": 5,
+									"endColumn": 161,
+									"endLine": 6
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "7e9979f44c0dbd99c76619f48c4245fa_7"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/unionSqlInjectionChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 10,
+									"startColumn": 5,
+									"endColumn": 161,
+									"endLine": 10
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d6273bb4e3195d87ba54a7ca10db72be_8"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/login.ts"
+								},
+								"region": {
+									"startLine": 36,
+									"startColumn": 5,
+									"endColumn": 206,
+									"endLine": 36
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "1c2a6e42ca5adc2c078fee1a7cb1a787_9"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_sql_injection",
+					"message": {
+						"text": "SQL injection vulnerability detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/search.ts"
+								},
+								"region": {
+									"startLine": 23,
+									"startColumn": 5,
+									"endColumn": 161,
+									"endLine": 23
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "626e8a24818faf605935d6ca0f0f748f_10"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_1_correct.ts"
+								},
+								"region": {
+									"startLine": 2,
+									"startColumn": 3,
+									"endColumn": 76,
+									"endLine": 2
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "f561fa26365b6c05e91ddc3b18fbed28_0"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_1_correct.ts"
+								},
+								"region": {
+									"startLine": 7,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 7
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "f561fa26365b6c05e91ddc3b18fbed28_1"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_2.ts"
+								},
+								"region": {
+									"startLine": 2,
+									"startColumn": 3,
+									"endColumn": 76,
+									"endLine": 2
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "7431053925541a9e4feb79b7adbba3a3_2"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_2.ts"
+								},
+								"region": {
+									"startLine": 7,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 7
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "7431053925541a9e4feb79b7adbba3a3_3"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_2.ts"
+								},
+								"region": {
+									"startLine": 11,
+									"startColumn": 3,
+									"endColumn": 86,
+									"endLine": 11
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "7431053925541a9e4feb79b7adbba3a3_4"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 2,
+									"startColumn": 3,
+									"endColumn": 76,
+									"endLine": 2
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "1bde540dc2dc7eadc0a5563ef8d50744_5"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 7,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 7
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "1bde540dc2dc7eadc0a5563ef8d50744_6"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 11,
+									"startColumn": 3,
+									"endColumn": 103,
+									"endLine": 11
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "1bde540dc2dc7eadc0a5563ef8d50744_7"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_4.ts"
+								},
+								"region": {
+									"startLine": 2,
+									"startColumn": 3,
+									"endColumn": 76,
+									"endLine": 2
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "87838e0cadbae4b996ea2ba0ce225f2e_8"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/accessLogDisclosureChallenge_4.ts"
+								},
+								"region": {
+									"startLine": 7,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 7
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "87838e0cadbae4b996ea2ba0ce225f2e_9"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_1_correct.ts"
+								},
+								"region": {
+									"startLine": 2,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 2
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d0c7f09f2c9927118811b6920976dbde_10"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_1_correct.ts"
+								},
+								"region": {
+									"startLine": 6,
+									"startColumn": 3,
+									"endColumn": 103,
+									"endLine": 6
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d0c7f09f2c9927118811b6920976dbde_11"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_2.ts"
+								},
+								"region": {
+									"startLine": 6,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 6
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "84a18ba9c67531b0f1271ecfad9a6522_12"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_2.ts"
+								},
+								"region": {
+									"startLine": 10,
+									"startColumn": 3,
+									"endColumn": 103,
+									"endLine": 10
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "84a18ba9c67531b0f1271ecfad9a6522_13"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 2,
+									"startColumn": 3,
+									"endColumn": 76,
+									"endLine": 2
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "8ebcfc95a36b5c20927ea9e466b8715c_14"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 5,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 5
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "8ebcfc95a36b5c20927ea9e466b8715c_15"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 9,
+									"startColumn": 3,
+									"endColumn": 103,
+									"endLine": 9
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "8ebcfc95a36b5c20927ea9e466b8715c_16"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_4.ts"
+								},
+								"region": {
+									"startLine": 2,
+									"startColumn": 3,
+									"endColumn": 77,
+									"endLine": 2
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d1d7fd4f95a122aab479067df9323e6c_17"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_4.ts"
+								},
+								"region": {
+									"startLine": 7,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 7
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d1d7fd4f95a122aab479067df9323e6c_18"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/directoryListingChallenge_4.ts"
+								},
+								"region": {
+									"startLine": 11,
+									"startColumn": 3,
+									"endColumn": 103,
+									"endLine": 11
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d1d7fd4f95a122aab479067df9323e6c_19"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "server.ts"
+								},
+								"region": {
+									"startLine": 241,
+									"startColumn": 3,
+									"endColumn": 76,
+									"endLine": 241
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "c539465e8119e4d020831d9f6cf0a973_20"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "server.ts"
+								},
+								"region": {
+									"startLine": 246,
+									"startColumn": 3,
+									"endColumn": 115,
+									"endLine": 246
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "c539465e8119e4d020831d9f6cf0a973_21"
+					}
+				},
+				{
+					"ruleId": "javascript_express_exposed_dir_listing",
+					"message": {
+						"text": "Missing access restriction to directory listing detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "server.ts"
+								},
+								"region": {
+									"startLine": 250,
+									"startColumn": 3,
+									"endColumn": 103,
+									"endLine": 250
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "c539465e8119e4d020831d9f6cf0a973_22"
+					}
+				},
+				{
+					"ruleId": "javascript_express_external_file_upload",
+					"message": {
+						"text": "External control of filename or path detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/keyServer.ts"
+								},
+								"region": {
+									"startLine": 14,
+									"startColumn": 7,
+									"endColumn": 58,
+									"endLine": 14
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "8643fdcb8411f54a6af5a25deb2da818_0"
+					}
+				},
+				{
+					"ruleId": "javascript_express_external_file_upload",
+					"message": {
+						"text": "External control of filename or path detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/logfileServer.ts"
+								},
+								"region": {
+									"startLine": 14,
+									"startColumn": 7,
+									"endColumn": 48,
+									"endLine": 14
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "caf5b22a357fad021743f7b2b8da54b8_1"
+					}
+				},
+				{
+					"ruleId": "javascript_express_external_file_upload",
+					"message": {
+						"text": "External control of filename or path detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "routes/quarantineServer.ts"
+								},
+								"region": {
+									"startLine": 14,
+									"startColumn": 7,
+									"endColumn": 58,
+									"endLine": 14
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "684ac0da58fe48421abddc5208554ab4_2"
+					}
+				},
+				{
+					"ruleId": "javascript_express_jwt_not_revoked",
+					"message": {
+						"text": "Unrevoked JWT detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "lib/insecurity.ts"
+								},
+								"region": {
+									"startLine": 53,
+									"startColumn": 30,
+									"endColumn": 63,
+									"endLine": 53
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d5aa377b45e8572a3f1634b5411f5973_0"
+					}
+				},
+				{
+					"ruleId": "javascript_express_jwt_not_revoked",
+					"message": {
+						"text": "Unrevoked JWT detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "lib/insecurity.ts"
+								},
+								"region": {
+									"startLine": 54,
+									"startColumn": 25,
+									"endColumn": 67,
+									"endLine": 54
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d5aa377b45e8572a3f1634b5411f5973_1"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_manual_html_sanitization",
+					"message": {
+						"text": "Manual HTML sanitization detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/redirectChallenge_3.ts"
+								},
+								"region": {
+									"startLine": 22,
+									"startColumn": 10,
+									"endColumn": 7,
+									"endLine": 31
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "21de2a29f76880dbfbba700acb3cf4b4_0"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_manual_html_sanitization",
+					"message": {
+						"text": "Manual HTML sanitization detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "data/static/codefixes/restfulXssChallenge_2.ts"
+								},
+								"region": {
+									"startLine": 59,
+									"startColumn": 34,
+									"endColumn": 82,
+									"endLine": 59
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "d098ec6c1ec482df2422801759454ad2_1"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_weak_encryption",
+					"message": {
+						"text": "Weak encryption library usage detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "Gruntfile.js"
+								},
+								"region": {
+									"startLine": 74,
+									"startColumn": 7,
+									"endColumn": 25,
+									"endLine": 74
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "ed4a3f1d4ae34d1ec46c133f1f018970_0"
+					}
+				},
+				{
+					"ruleId": "javascript_lang_weak_encryption",
+					"message": {
+						"text": "Weak encryption library usage detected."
+					},
+					"locations": [
+						{
+							"physicalLocation": {
+								"artifactLocation": {
+									"uri": "lib/insecurity.ts"
+								},
+								"region": {
+									"startLine": 42,
+									"startColumn": 34,
+									"endColumn": 71,
+									"endLine": 42
+								}
+							}
+						}
+					],
+					"partialFingerprints": {
+						"primaryLocationLineHash": "ebb92933732305def2e9f74a6c806838_1"
+					}
+				}
+			]
+		}
+	]
+}

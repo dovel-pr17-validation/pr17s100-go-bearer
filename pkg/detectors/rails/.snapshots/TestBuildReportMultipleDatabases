@@ -1,0 +1,44 @@
+([]*detections.FrameworkDetection) (len=2) {
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=5) "rails",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=19) "config/database.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(100),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (rails.Database) {
+      Name: (string) (len=7) "primary",
+      Adapter: (string) (len=5) "mysql"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=5) "rails",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=19) "config/database.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(107),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (rails.Database) {
+      Name: (string) (len=15) "primary_replica",
+      Adapter: (string) (len=5) "mysql"
+    }
+  })
+}

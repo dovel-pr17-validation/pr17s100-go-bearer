@@ -1,0 +1,611 @@
+([]*detections.Detection) (len=21) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(2),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(2),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=15) "delivery_client",
+      FieldUUID: (string) (len=1) "2",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=15) "delivery_client"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(2),
+      StartColumnNumber: (*int)(34),
+      EndLineNumber: (*int)(2),
+      EndColumnNumber: (*int)(38),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=15) "delivery_client",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=4) "call",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=15) "delivery_client",
+      NormalizedFieldName: (string) (len=4) "call"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(15),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "messages",
+      ObjectUUID: (string) (len=1) "4",
+      FieldName: (string) (len=5) "error",
+      FieldUUID: (string) (len=1) "5",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "message",
+      NormalizedFieldName: (string) (len=5) "error"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(13),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(13),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=1) "6",
+      FieldName: (string) (len=15) "delivery_client",
+      FieldUUID: (string) (len=1) "7",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=15) "delivery_client"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(13),
+      StartColumnNumber: (*int)(34),
+      EndLineNumber: (*int)(13),
+      EndColumnNumber: (*int)(38),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=15) "delivery_client",
+      ObjectUUID: (string) (len=1) "7",
+      FieldName: (string) (len=4) "call",
+      FieldUUID: (string) (len=1) "8",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=15) "delivery_client",
+      NormalizedFieldName: (string) (len=4) "call"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(15),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(15),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=1) "6",
+      FieldName: (string) (len=7) "api_url",
+      FieldUUID: (string) (len=1) "9",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=7) "api_url"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(18),
+      StartColumnNumber: (*int)(15),
+      EndLineNumber: (*int)(18),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "delivery",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=5) "error",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "delivery",
+      NormalizedFieldName: (string) (len=5) "error"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(24),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(24),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=2) "13",
+      FieldName: (string) (len=15) "delivery_client",
+      FieldUUID: (string) (len=2) "14",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=15) "delivery_client"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(24),
+      StartColumnNumber: (*int)(34),
+      EndLineNumber: (*int)(24),
+      EndColumnNumber: (*int)(38),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=15) "delivery_client",
+      ObjectUUID: (string) (len=2) "14",
+      FieldName: (string) (len=4) "call",
+      FieldUUID: (string) (len=2) "15",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=15) "delivery_client",
+      NormalizedFieldName: (string) (len=4) "call"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(26),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(26),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=2) "13",
+      FieldName: (string) (len=7) "api_url",
+      FieldUUID: (string) (len=2) "16",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=7) "api_url"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(27),
+      StartColumnNumber: (*int)(66),
+      EndLineNumber: (*int)(27),
+      EndColumnNumber: (*int)(69),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "platform",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=3) "foo",
+      FieldUUID: (string) (len=2) "20",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "platform",
+      NormalizedFieldName: (string) (len=3) "foo"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(30),
+      StartColumnNumber: (*int)(15),
+      EndLineNumber: (*int)(30),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "delivery",
+      ObjectUUID: (string) (len=2) "22",
+      FieldName: (string) (len=5) "error",
+      FieldUUID: (string) (len=2) "23",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "delivery",
+      NormalizedFieldName: (string) (len=5) "error"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=2) "25",
+      FieldName: (string) (len=15) "delivery_client",
+      FieldUUID: (string) (len=2) "26",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=15) "delivery_client"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(34),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(38),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=15) "delivery_client",
+      ObjectUUID: (string) (len=2) "26",
+      FieldName: (string) (len=4) "call",
+      FieldUUID: (string) (len=2) "27",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=15) "delivery_client",
+      NormalizedFieldName: (string) (len=4) "call"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(38),
+      StartColumnNumber: (*int)(12),
+      EndLineNumber: (*int)(38),
+      EndColumnNumber: (*int)(28),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "ENV",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=14) "CUSTOMERS_HOST",
+      FieldUUID: (string) (len=2) "29",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "env",
+      NormalizedFieldName: (string) (len=14) "customers_host"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(38),
+      StartColumnNumber: (*int)(36),
+      EndLineNumber: (*int)(38),
+      EndColumnNumber: (*int)(56),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "ENV",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=18) "CUSTOMER_HOST_PORT",
+      FieldUUID: (string) (len=2) "30",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "env",
+      NormalizedFieldName: (string) (len=18) "customer_host_port"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(41),
+      StartColumnNumber: (*int)(15),
+      EndLineNumber: (*int)(41),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "delivery",
+      ObjectUUID: (string) (len=2) "31",
+      FieldName: (string) (len=5) "error",
+      FieldUUID: (string) (len=2) "32",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "delivery",
+      NormalizedFieldName: (string) (len=5) "error"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(47),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(47),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=2) "34",
+      FieldName: (string) (len=15) "delivery_client",
+      FieldUUID: (string) (len=2) "35",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=15) "delivery_client"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(47),
+      StartColumnNumber: (*int)(34),
+      EndLineNumber: (*int)(47),
+      EndColumnNumber: (*int)(38),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=15) "delivery_client",
+      ObjectUUID: (string) (len=2) "35",
+      FieldName: (string) (len=4) "call",
+      FieldUUID: (string) (len=2) "36",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=15) "delivery_client",
+      NormalizedFieldName: (string) (len=4) "call"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(49),
+      StartColumnNumber: (*int)(12),
+      EndLineNumber: (*int)(49),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "app",
+      ObjectUUID: (string) (len=2) "34",
+      FieldName: (string) (len=6) "apiURL",
+      FieldUUID: (string) (len=2) "37",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "app",
+      NormalizedFieldName: (string) (len=6) "apiurl"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "python",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(52),
+      StartColumnNumber: (*int)(15),
+      EndLineNumber: (*int)(52),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "delivery",
+      ObjectUUID: (string) (len=2) "38",
+      FieldName: (string) (len=5) "error",
+      FieldUUID: (string) (len=2) "39",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "delivery",
+      NormalizedFieldName: (string) (len=5) "error"
+    }
+  })
+}

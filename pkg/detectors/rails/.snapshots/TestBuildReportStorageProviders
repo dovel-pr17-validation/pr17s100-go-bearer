@@ -1,0 +1,68 @@
+([]*detections.FrameworkDetection) (len=3) {
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=5) "rails",
+    FrameworkType: (frameworks.Type) (len=7) "storage",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=18) "config/storage.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(5),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (rails.Storage) {
+      Name: (string) (len=6) "amazon",
+      Service: (string) (len=2) "S3",
+      Encryption: (string) (len=6) "AES256"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=5) "rails",
+    FrameworkType: (frameworks.Type) (len=7) "storage",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=18) "config/storage.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(15),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (rails.Storage) {
+      Name: (string) (len=12) "amazon_other",
+      Service: (string) (len=2) "S3",
+      Encryption: (string) ""
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=5) "rails",
+    FrameworkType: (frameworks.Type) (len=7) "storage",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=18) "config/storage.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(1),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (rails.Storage) {
+      Name: (string) (len=5) "local",
+      Service: (string) (len=4) "Disk",
+      Encryption: (string) ""
+    }
+  })
+}

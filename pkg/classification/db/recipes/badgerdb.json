@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "BadgerDB",
+  "type": "data_store",
+  "urls": [],
+  "packages": [
+    {
+      "name": "github.com/dgraph-io/badger",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "128ba4b0-a8e6-4264-bde4-79cf618ee20e",
+  "sub_type": "database"
+}

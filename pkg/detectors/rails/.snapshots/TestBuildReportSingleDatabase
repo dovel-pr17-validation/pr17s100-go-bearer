@@ -1,0 +1,23 @@
+([]*detections.FrameworkDetection) (len=1) {
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=5) "rails",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=19) "config/database.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(26),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (rails.Database) {
+      Name: (string) "",
+      Adapter: (string) (len=10) "postgresql"
+    }
+  })
+}

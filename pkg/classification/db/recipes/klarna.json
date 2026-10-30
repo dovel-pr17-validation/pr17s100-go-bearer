@@ -1,0 +1,13 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Klarna",
+  "type": "external_service",
+  "urls": [
+    "https://api.playground.klarna.com",
+    "https://banking.klarna.com",
+    "https://api.klarna.com"
+  ],
+  "packages": [],
+  "uuid": "bd069ac5-fb0d-41eb-8908-124b4b11be81",
+  "sub_type": "third_party"
+}

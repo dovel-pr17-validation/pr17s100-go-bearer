@@ -1,0 +1,30 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Bugsnag",
+  "type": "external_service",
+  "urls": [
+    "https://sessions.bugsnag.com",
+    "https://build.bugsnag.com",
+    "https://api.bugsnag.com",
+    "https://notify.bugsnag.com"
+  ],
+  "packages": [
+    {
+      "name": "bugsnag",
+      "group": null,
+      "package_manager": "rubygems"
+    },
+    {
+      "name": "github.com/Shopify/logrus-bugsnag",
+      "group": null,
+      "package_manager": "go"
+    },
+    {
+      "name": "github.com/bugsnag/bugsnag-go",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "7ee828de-b2de-4b7e-a93a-f1a084ca59d1",
+  "sub_type": "third_party"
+}

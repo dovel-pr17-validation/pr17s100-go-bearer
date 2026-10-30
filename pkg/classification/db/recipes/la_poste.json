@@ -1,0 +1,12 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "La Poste",
+  "type": "external_service",
+  "urls": [
+    "https://ws.colissimo.fr",
+    "https://api.laposte.fr"
+  ],
+  "packages": [],
+  "uuid": "a9788351-127c-42e2-87b4-06f6d6fb209a",
+  "sub_type": "third_party"
+}

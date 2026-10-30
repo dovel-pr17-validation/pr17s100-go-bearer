@@ -1,0 +1,9 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Digitalocean",
+  "type": "external_service",
+  "urls": [],
+  "packages": [],
+  "uuid": "d617fbd2-cbbf-4e70-91e3-4a955e8bb171",
+  "sub_type": "third_party"
+}

@@ -1,0 +1,94 @@
+([]*detections.Detection) (len=4) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=7) "piplock",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Pipfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(17),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(17),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=12) "atomicwrites",
+      Version: (string) (len=7) "==1.4.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=7) "piplock",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Pipfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(25),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(25),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=5) "attrs",
+      Version: (string) (len=8) "==21.2.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=7) "piplock",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Pipfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(35),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(35),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=9) "alabaster",
+      Version: (string) (len=8) "==0.7.12"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=7) "piplock",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "Pipfile.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(42),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(42),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "arpeggio",
+      Version: (string) (len=8) "==1.10.2"
+    }
+  })
+}

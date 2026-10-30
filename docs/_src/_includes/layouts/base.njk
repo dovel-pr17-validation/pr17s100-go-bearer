@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bearer CLI: {{title}}</title>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="{{meta.description}}"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="google-site-verification" content="TPIn3qa-ZOQsCQrpOB6J5eALE4dPBPiRBEJP5azpo9g"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <meta property="og:title" content="Bearer CLI: {{ title | escape }}"/>
+    <meta property="og:description" content="{{ meta.description | escape }}"/>
+    <meta property="og:image" content="{{meta.url}}/assets/img/bearer-cli-opengraph.png"/>
+    <meta property="og:url" content="{{ page.url | escape }}"/>
+    <meta property="og:site_name" content="Bearer CLI"/>
+    <meta property="og:type" content="website"/>
+    <link rel="canonical" content="{{ page.url | escape }}"/>
+    <link rel="icon" href="/assets/img/favicon.ico"/>
+    <link rel="icon" href="/assets/img/favicon.svg"/>
+    <link rel="stylesheet" href="/style.css?v={% version %}"/>
+    <link rel="stylesheet" href="/prism-theme.css"/>
+    <link rel="stylesheet" href="/callout.css"/>
+    <script defer data-domain="docs.bearer.com" src="https://plausible.io/js/script.js"></script>
+  </head>
+  <body class="bg-white dark:bg-neutral-600">
+    {% include "nav.njk" %}
+    {{ content | safe }}
+    <script src="/app.js"></script>
+    {% if mermaid %}
+      {% mermaid_js %}
+    {% endif %}
+  </body>
+</html>

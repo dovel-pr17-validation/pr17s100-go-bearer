@@ -1,0 +1,1 @@
+logger.info({name: "mike"})

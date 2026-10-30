@@ -1,0 +1,12 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Companies House (GOV.UK)",
+  "type": "external_service",
+  "urls": [
+    "https://xmlgw.companieshouse.gov.uk",
+    "https://api.companieshouse.gov.uk"
+  ],
+  "packages": [],
+  "uuid": "5be996ca-b007-4174-a9aa-fb3b69697d59",
+  "sub_type": "third_party"
+}

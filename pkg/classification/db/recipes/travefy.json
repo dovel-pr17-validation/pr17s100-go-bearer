@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Travefy",
+  "type": "external_service",
+  "urls": [
+    "https://api.travefy.com"
+  ],
+  "packages": [],
+  "uuid": "b91edd7b-fd90-40f9-b94d-24baa3c56d8d",
+  "sub_type": "third_party"
+}

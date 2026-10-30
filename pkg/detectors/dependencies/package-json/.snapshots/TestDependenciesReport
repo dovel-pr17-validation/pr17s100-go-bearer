@@ -1,0 +1,876 @@
+([]*detections.Detection) (len=38) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=26) "@apideck/better-ajv-errors",
+      Version: (string) (len=6) "^0.3.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(24),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(24),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=11) "@babel/core",
+      Version: (string) (len=7) "^7.11.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(25),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(25),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=17) "@babel/preset-env",
+      Version: (string) (len=7) "^7.11.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(26),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(26),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=14) "@babel/runtime",
+      Version: (string) (len=7) "^7.11.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(27),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(27),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=20) "@rollup/plugin-babel",
+      Version: (string) (len=6) "^5.2.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(28),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(28),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=27) "@rollup/plugin-node-resolve",
+      Version: (string) (len=7) "^11.2.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(29),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(29),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=22) "@rollup/plugin-replace",
+      Version: (string) (len=6) "^2.4.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(30),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(30),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=36) "@surma/rollup-plugin-off-main-thread",
+      Version: (string) (len=6) "^2.2.3"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(31),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(31),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=3) "ajv",
+      Version: (string) (len=6) "^8.6.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(32),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(32),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=11) "common-tags",
+      Version: (string) (len=6) "^1.8.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(33),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(33),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=26) "fast-json-stable-stringify",
+      Version: (string) (len=6) "^2.1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(34),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(34),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=8) "fs-extra",
+      Version: (string) (len=6) "^9.0.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(35),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(35),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=4) "glob",
+      Version: (string) (len=6) "^7.1.6"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=6) "lodash",
+      Version: (string) (len=8) "^4.17.20"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(37),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(37),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=12) "pretty-bytes",
+      Version: (string) (len=6) "^5.3.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(38),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(38),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=6) "rollup",
+      Version: (string) (len=7) "^2.43.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(39),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(39),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=20) "rollup-plugin-terser",
+      Version: (string) (len=6) "^7.0.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(40),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(40),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=10) "source-map",
+      Version: (string) (len=13) "^0.8.0-beta.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(41),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(41),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=14) "source-map-url",
+      Version: (string) (len=6) "^0.4.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(42),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(42),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=16) "stringify-object",
+      Version: (string) (len=6) "^3.3.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(43),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(43),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=14) "strip-comments",
+      Version: (string) (len=6) "^2.0.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(44),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(44),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=5) "tempy",
+      Version: (string) (len=6) "^0.6.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(45),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(45),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=5) "upath",
+      Version: (string) (len=6) "^1.2.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(46),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(46),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=23) "workbox-background-sync",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(47),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(47),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=24) "workbox-broadcast-update",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(48),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(48),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=26) "workbox-cacheable-response",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(49),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(49),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=12) "workbox-core",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(50),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(50),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=18) "workbox-expiration",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(51),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(51),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=24) "workbox-google-analytics",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(52),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(52),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=26) "workbox-navigation-preload",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(53),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(53),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=18) "workbox-precaching",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(54),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(54),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=22) "workbox-range-requests",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(55),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(55),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=15) "workbox-recipes",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(56),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(56),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=15) "workbox-routing",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(57),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(57),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=18) "workbox-strategies",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(58),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(58),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=15) "workbox-streams",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(59),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(59),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=10) "workbox-sw",
+      Version: (string) (len=5) "6.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "package-json",
+    DetectorLanguage: (detectors.Language) (len=10) "javascript",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "package.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(60),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(60),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=3) "npm",
+      Group: (string) "",
+      Name: (string) (len=14) "workbox-window",
+      Version: (string) (len=5) "6.4.2"
+    }
+  })
+}

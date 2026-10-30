@@ -1,0 +1,18 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "AppDynamics",
+  "type": "external_service",
+  "urls": [
+    "https://*.um-appdynamics.com",
+    "https://appd.com/controller/rest"
+  ],
+  "packages": [
+    {
+      "name": "appdynamics",
+      "group": null,
+      "package_manager": "npm"
+    }
+  ],
+  "uuid": "391da1c2-e7d6-46fa-afc9-d0d0cefdca5c",
+  "sub_type": "third_party"
+}

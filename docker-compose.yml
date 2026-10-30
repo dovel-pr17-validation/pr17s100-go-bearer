@@ -1,0 +1,13 @@
+services:
+  bearer:
+    build:
+      dockerfile: Dockerfile.dev
+      context: .
+    volumes:
+      - .:/root/
+      - "$SCAN_DIR:/scans/"
+    environment:
+      - UPDATE_SNAPSHOTS=true
+      - BEARER_EXECUTABLE_PATH=/root/bearer
+      - GITHUB_WORKSPACE=/root
+      - USE_BINARY=true

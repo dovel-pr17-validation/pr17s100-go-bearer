@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Dreamhost",
+  "type": "external_service",
+  "urls": [
+    "https://api.dreamhost.com"
+  ],
+  "packages": [],
+  "uuid": "78102417-52f7-40c7-99ee-ac84986e5171",
+  "sub_type": "third_party"
+}

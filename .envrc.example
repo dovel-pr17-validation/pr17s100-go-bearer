@@ -1,0 +1,14 @@
+export BATTLE_TEST_REDIS_ADDRESS=localhost:6379
+export GOOGLE_DRIVE_PARENT_FOLDER_ID=""
+export GOOGLE_SHEETS_USER=''
+export GOOGLE_APP=''
+export REDIS_INIT="true"
+export GOOGLE_MAX_ATTEMPT="5"
+export BEARER_EXECUTABLE_PATH="./bearer"
+export GITHUB_WORKSPACE="$PWD"
+export SCAN_DIR=/Users/username/OWASP
+export BEARER_DISABLE_VERSION_CHECK=true
+export BEARER_DISABLE_DEFAULT_RULES=true
+export BEARER_EXTERNAL_RULE_DIR=$PWD/../bearer-rules/rules
+# export BEARER_FORCE=true
+# export BEARER_IGNORE_GIT=true

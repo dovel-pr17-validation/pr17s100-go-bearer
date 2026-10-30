@@ -1,0 +1,17 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Adyen",
+  "type": "external_service",
+  "urls": [
+    "https://live-us.adyen.com",
+    "https://live-au.adyen.com",
+    "https://live.adyen.com",
+    "https://test.adyen.com",
+    "https://live.adyenpayments.com",
+    "https://pal-test.adyen.com",
+    "https://checkout-test.adyen.com"
+  ],
+  "packages": [],
+  "uuid": "d050650e-f863-4ed8-9342-3a54b32335b8",
+  "sub_type": "third_party"
+}

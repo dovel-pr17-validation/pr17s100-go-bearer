@@ -1,0 +1,63 @@
+---
+layout: layouts/base.njk
+---
+{% set currentUrl = page.url %}
+<main class="wrap mx-auto flex flex-col sm:grid grid-cols-5 text-black dark:text-neutral-100 px-8 relative gap-4 pt-4">
+	<nav class="hidden self-stretch overflow-y-scroll max-h-[85vh] top-heading-offset sm:revert sm:self-start sticky  col-span-1  bg-white dark:bg-neutral-600 z-10 pb-4 text-sm lg:text-base" id="doc-nav" >
+		<ul>
+			{% for heading in nav %}
+				<li class="mb-4">
+					<details {{"open"}} >
+						<summary class="font-bold text-md cursor-pointer leading-8 flex items-center">{{heading.name}}
+							<span class="transition-transform -rotate-90">{%include 'icon-chevron.njk' %}</span></summary>
+						<ul class="ml-2">
+							{% for item in heading.items %}
+								<li>
+									<a
+										class="hover:underline block"
+										{% if navHighlight(item.url, page.url) %}aria-current="page" {% endif %}
+										href="{{item.url}}"
+									>
+										{{item.name}}
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</details>
+				</li>
+			{% endfor %}
+		</ul>
+	</nav>
+	<div class="grid col-span-4 gap-4 grid-cols-4">
+		<article class="order-last md:order-first min-w-0 prose prose-lg dark:prose-invert prose-headings:mb-4 prose-headings:mt-8 prose-h1:mt-0 col-span-4 md:col-span-3 min-content-height">
+			{% if breadcrumbs %}
+				{% include 'breadcrumbs.njk' %}
+			{% endif %}
+			{{ content | safe }}
+		</article>
+		<aside class="self-start col-span-3 sm:col-span-2 md:col-span-1  md:top-heading-offset  dark:text-neutral-200 md:flex md:flex-col md:sticky text-sm gap-4 justify-between md:mb-4 ">
+			<div class=" border-solid border-2 border-neutral-200 dark:border-neutral-500 rounded-md">
+				<div class="flex justify-between relative p-4">
+					<h2 class="font-bold text-md">On this page</h2>
+					<button id="js-toggle-toc" class="md:hidden absolute top-0 left-0 right-0 bottom-0 text-right flex justify-end items-center pr-3">
+						<span class="sr-only">Toggle menu</span>
+						<div class="">{% include 'icon-chevron.njk'%}</div>
+					</button>
+				</div>
+				<div id="toc-container" class="hidden md:block px-4 pb-4 overflow-y-scroll md:max-h-[50vh]">
+					<a href="#" class="hover:underline">Overview</a>
+					{{ content | toc | safe }}
+					<h2 class="mt-2 font-bold text-md">Contribute</h2>
+					<ul>
+						<li>
+							<a class="hover:underline" href="{{meta.sourcePath}}/blob/main/docs/{{ page.inputPath }}">Edit this page</a>
+						</li>
+						<li>
+							<a href="{{meta.sourcePath}}/issues/new/choose" class="hover:underline">Leave feedback</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+	</div>
+</main>

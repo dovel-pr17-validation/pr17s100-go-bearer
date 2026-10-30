@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Blackfire",
+  "type": "external_service",
+  "urls": [],
+  "packages": [
+    {
+      "name": "blackfire/php-sdk",
+      "group": null,
+      "package_manager": "packagist"
+    }
+  ],
+  "uuid": "7fa6b706-85de-4085-8728-c68aa1b12b1e",
+  "sub_type": "third_party"
+}

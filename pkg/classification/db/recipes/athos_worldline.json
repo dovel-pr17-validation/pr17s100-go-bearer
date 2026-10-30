@@ -1,0 +1,17 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Athos Worldline",
+  "type": "external_service",
+  "urls": [
+    "https://office-server.test.sips-services.com",
+    "https://office-server.sips-services.com",
+    "https://rcet-payment.sips-atos.com",
+    "https://payment.test.sips-atos.com",
+    "https://office-server.test.sips-atos.com",
+    "https://office-server.sips-atos.com",
+    "https://acqsim.test.sips-atos.com"
+  ],
+  "packages": [],
+  "uuid": "a2e4023c-a098-420b-bcdb-0bb6630cd9bf",
+  "sub_type": "third_party"
+}

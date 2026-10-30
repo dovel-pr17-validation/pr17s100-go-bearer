@@ -1,0 +1,1278 @@
+([]*detections.Detection) (len=44) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(16),
+      StartColumnNumber: (*int)(27),
+      EndLineNumber: (*int)(16),
+      EndColumnNumber: (*int)(43),
+      Text: (*string)((len=16) "member_addresses")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=14) "AddressesBatch",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=16) "member_addresses",
+      FieldUUID: (string) (len=1) "2",
+      FieldType: (string) (len=15) "MemberAddresses",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=14) "addressesbatch",
+      NormalizedFieldName: (string) (len=14) "member_address"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(20),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(20),
+      EndColumnNumber: (*int)(25),
+      Text: (*string)((len=7) "members")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "MembersBatch",
+      ObjectUUID: (string) (len=1) "3",
+      FieldName: (string) (len=7) "members",
+      FieldUUID: (string) (len=1) "4",
+      FieldType: (string) (len=6) "Member",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "membersbatch",
+      NormalizedFieldName: (string) (len=6) "member"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(24),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(24),
+      EndColumnNumber: (*int)(13),
+      Text: (*string)((len=6) "status")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "ImportReply",
+      ObjectUUID: (string) (len=1) "5",
+      FieldName: (string) (len=6) "status",
+      FieldUUID: (string) (len=1) "6",
+      FieldType: (string) (len=4) "bool",
+      SimpleFieldType: (string) (len=7) "boolean",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=11) "importreply",
+      NormalizedFieldName: (string) (len=6) "status"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(28),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(28),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)((len=5) "phone")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "MemberPhone",
+      ObjectUUID: (string) (len=1) "7",
+      FieldName: (string) (len=5) "phone",
+      FieldUUID: (string) (len=1) "8",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=11) "memberphone",
+      NormalizedFieldName: (string) (len=5) "phone"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(29),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(29),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)((len=10) "phone_type")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "MemberPhone",
+      ObjectUUID: (string) (len=1) "7",
+      FieldName: (string) (len=10) "phone_type",
+      FieldUUID: (string) (len=1) "9",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=11) "memberphone",
+      NormalizedFieldName: (string) (len=10) "phone_type"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(33),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(33),
+      EndColumnNumber: (*int)(22),
+      Text: (*string)((len=14) "social_type_id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=13) "SocialAccount",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=14) "social_type_id",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) (len=5) "int32",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=13) "socialaccount",
+      NormalizedFieldName: (string) (len=14) "social_type_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(34),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(34),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)((len=14) "social_user_id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=13) "SocialAccount",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=14) "social_user_id",
+      FieldUUID: (string) (len=2) "12",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=13) "socialaccount",
+      NormalizedFieldName: (string) (len=14) "social_user_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(38),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(38),
+      EndColumnNumber: (*int)(30),
+      Text: (*string)((len=21) "member_premium_status")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=14) "LoyaltyProgram",
+      ObjectUUID: (string) (len=2) "13",
+      FieldName: (string) (len=21) "member_premium_status",
+      FieldUUID: (string) (len=2) "14",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=14) "loyaltyprogram",
+      NormalizedFieldName: (string) (len=21) "member_premium_status"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(39),
+      StartColumnNumber: (*int)(28),
+      EndLineNumber: (*int)(39),
+      EndColumnNumber: (*int)(38),
+      Text: (*string)((len=10) "start_date")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=14) "LoyaltyProgram",
+      ObjectUUID: (string) (len=2) "13",
+      FieldName: (string) (len=10) "start_date",
+      FieldUUID: (string) (len=2) "15",
+      FieldType: (string) (len=25) "google.protobuf.Timestamp",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=14) "loyaltyprogram",
+      NormalizedFieldName: (string) (len=10) "start_date"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(40),
+      StartColumnNumber: (*int)(28),
+      EndLineNumber: (*int)(40),
+      EndColumnNumber: (*int)(36),
+      Text: (*string)((len=8) "end_date")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=14) "LoyaltyProgram",
+      ObjectUUID: (string) (len=2) "13",
+      FieldName: (string) (len=8) "end_date",
+      FieldUUID: (string) (len=2) "16",
+      FieldType: (string) (len=25) "google.protobuf.Timestamp",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=14) "loyaltyprogram",
+      NormalizedFieldName: (string) (len=8) "end_date"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(44),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(44),
+      EndColumnNumber: (*int)(21),
+      Text: (*string)((len=12) "segmentation")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=13) "MarketingItem",
+      ObjectUUID: (string) (len=2) "17",
+      FieldName: (string) (len=12) "segmentation",
+      FieldUUID: (string) (len=2) "18",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=13) "marketingitem",
+      NormalizedFieldName: (string) (len=12) "segmentation"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(49),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(49),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)((len=9) "member_id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=9) "member_id",
+      FieldUUID: (string) (len=2) "20",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=9) "member_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(50),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(50),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)((len=9) "firstname")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=9) "firstname",
+      FieldUUID: (string) (len=2) "21",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=9) "firstname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(51),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(51),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)((len=8) "lastname")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=8) "lastname",
+      FieldUUID: (string) (len=2) "22",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=8) "lastname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(52),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(52),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)((len=6) "gender")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=6) "gender",
+      FieldUUID: (string) (len=2) "23",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=6) "gender"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(53),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(53),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)((len=16) "external_user_id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=16) "external_user_id",
+      FieldUUID: (string) (len=2) "24",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=16) "external_user_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(54),
+      StartColumnNumber: (*int)(29),
+      EndLineNumber: (*int)(54),
+      EndColumnNumber: (*int)(38),
+      Text: (*string)((len=9) "birthdate")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=9) "birthdate",
+      FieldUUID: (string) (len=2) "25",
+      FieldType: (string) (len=25) "google.protobuf.Timestamp",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=9) "birthdate"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(55),
+      StartColumnNumber: (*int)(29),
+      EndLineNumber: (*int)(55),
+      EndColumnNumber: (*int)(46),
+      Text: (*string)((len=17) "modification_date")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=17) "modification_date",
+      FieldUUID: (string) (len=2) "26",
+      FieldType: (string) (len=25) "google.protobuf.Timestamp",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=17) "modification_date"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(56),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(56),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)((len=9) "shop_name")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=9) "shop_name",
+      FieldUUID: (string) (len=2) "27",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=9) "shop_name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(57),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(57),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)((len=6) "status")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=6) "status",
+      FieldUUID: (string) (len=2) "28",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=6) "status"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(58),
+      StartColumnNumber: (*int)(29),
+      EndLineNumber: (*int)(58),
+      EndColumnNumber: (*int)(46),
+      Text: (*string)((len=17) "registration_date")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=17) "registration_date",
+      FieldUUID: (string) (len=2) "29",
+      FieldType: (string) (len=25) "google.protobuf.Timestamp",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=17) "registration_date"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(59),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(59),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)((len=5) "email")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=5) "email",
+      FieldUUID: (string) (len=2) "30",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=5) "email"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(60),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(60),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)((len=8) "password")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=8) "password",
+      FieldUUID: (string) (len=2) "31",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=8) "password"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(61),
+      StartColumnNumber: (*int)(24),
+      EndLineNumber: (*int)(61),
+      EndColumnNumber: (*int)(34),
+      Text: (*string)((len=10) "phone_list")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=10) "phone_list",
+      FieldUUID: (string) (len=2) "32",
+      FieldType: (string) (len=11) "MemberPhone",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=10) "phone_list"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(62),
+      StartColumnNumber: (*int)(26),
+      EndLineNumber: (*int)(62),
+      EndColumnNumber: (*int)(41),
+      Text: (*string)((len=15) "social_accounts")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=15) "social_accounts",
+      FieldUUID: (string) (len=2) "33",
+      FieldType: (string) (len=13) "SocialAccount",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=14) "social_account"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(63),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(63),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)((len=15) "loyalty_program")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=15) "loyalty_program",
+      FieldUUID: (string) (len=2) "34",
+      FieldType: (string) (len=14) "LoyaltyProgram",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=15) "loyalty_program"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(64),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(64),
+      EndColumnNumber: (*int)(31),
+      Text: (*string)((len=14) "marketing_item")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=14) "marketing_item",
+      FieldUUID: (string) (len=2) "35",
+      FieldType: (string) (len=13) "MarketingItem",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=14) "marketing_item"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(65),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(65),
+      EndColumnNumber: (*int)(29),
+      Text: (*string)((len=19) "communication_model")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=19) "communication_model",
+      FieldUUID: (string) (len=2) "36",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=19) "communication_model"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(66),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(66),
+      EndColumnNumber: (*int)(31),
+      Text: (*string)((len=21) "communication_channel")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=21) "communication_channel",
+      FieldUUID: (string) (len=2) "37",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=21) "communication_channel"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(67),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(67),
+      EndColumnNumber: (*int)(25),
+      Text: (*string)((len=15) "autologin_token")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=15) "autologin_token",
+      FieldUUID: (string) (len=2) "38",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=15) "autologin_token"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(68),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(68),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)((len=11) "is_employee")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=11) "is_employee",
+      FieldUUID: (string) (len=2) "39",
+      FieldType: (string) (len=4) "bool",
+      SimpleFieldType: (string) (len=7) "boolean",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=11) "is_employee"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(69),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(69),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)((len=9) "godfather")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=9) "godfather",
+      FieldUUID: (string) (len=2) "40",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=9) "godfather"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(70),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(70),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)((len=11) "has_ordered")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Member",
+      ObjectUUID: (string) (len=2) "19",
+      FieldName: (string) (len=11) "has_ordered",
+      FieldUUID: (string) (len=2) "41",
+      FieldType: (string) (len=4) "bool",
+      SimpleFieldType: (string) (len=7) "boolean",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "member",
+      NormalizedFieldName: (string) (len=11) "has_ordered"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(75),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(75),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)((len=9) "member_id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=15) "MemberAddresses",
+      ObjectUUID: (string) (len=2) "42",
+      FieldName: (string) (len=9) "member_id",
+      FieldUUID: (string) (len=2) "43",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=13) "memberaddress",
+      NormalizedFieldName: (string) (len=9) "member_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(76),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(76),
+      EndColumnNumber: (*int)(28),
+      Text: (*string)((len=9) "addresses")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=15) "MemberAddresses",
+      ObjectUUID: (string) (len=2) "42",
+      FieldName: (string) (len=9) "addresses",
+      FieldUUID: (string) (len=2) "44",
+      FieldType: (string) (len=7) "Address",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=13) "memberaddress",
+      NormalizedFieldName: (string) (len=7) "address"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(80),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(80),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)((len=9) "firstname")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=9) "firstname",
+      FieldUUID: (string) (len=2) "46",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=9) "firstname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(81),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(81),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)((len=8) "lastname")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=8) "lastname",
+      FieldUUID: (string) (len=2) "47",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=8) "lastname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(82),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(82),
+      EndColumnNumber: (*int)(24),
+      Text: (*string)((len=15) "address_details")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=15) "address_details",
+      FieldUUID: (string) (len=2) "48",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=14) "address_detail"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(83),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(83),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)((len=8) "zip_code")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=8) "zip_code",
+      FieldUUID: (string) (len=2) "49",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=8) "zip_code"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(84),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(84),
+      EndColumnNumber: (*int)(13),
+      Text: (*string)((len=4) "city")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=4) "city",
+      FieldUUID: (string) (len=2) "50",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=4) "city"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(85),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(85),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)((len=5) "phone")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=5) "phone",
+      FieldUUID: (string) (len=2) "51",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=5) "phone"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(86),
+      StartColumnNumber: (*int)(28),
+      EndLineNumber: (*int)(86),
+      EndColumnNumber: (*int)(41),
+      Text: (*string)((len=13) "creation_date")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=13) "creation_date",
+      FieldUUID: (string) (len=2) "52",
+      FieldType: (string) (len=25) "google.protobuf.Timestamp",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=13) "creation_date"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(87),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(87),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)((len=20) "is_last_used_address")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=20) "is_last_used_address",
+      FieldUUID: (string) (len=2) "53",
+      FieldType: (string) (len=4) "bool",
+      SimpleFieldType: (string) (len=7) "boolean",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=20) "is_last_used_address"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=5) "proto",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "schema.proto",
+      FullFilename: (string) "",
+      Language: (string) (len=15) "Protocol Buffer",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(88),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(88),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)((len=7) "company")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Address",
+      ObjectUUID: (string) (len=2) "45",
+      FieldName: (string) (len=7) "company",
+      FieldUUID: (string) (len=2) "54",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=7) "company"
+    }
+  })
+}

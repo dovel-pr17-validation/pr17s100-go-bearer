@@ -1,0 +1,234 @@
+([]*detections.Detection) (len=8) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(2),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(6),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(6),
+      StartColumnNumber: (*int)(2),
+      EndLineNumber: (*int)(6),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=6) "person",
+      FieldUUID: (string) (len=1) "4",
+      FieldType: (string) (len=6) "person",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=6) "person"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(19),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=4) "Save",
+      FieldUUID: (string) (len=1) "5",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "save"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(24),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(24),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=4) "Load",
+      FieldUUID: (string) (len=1) "6",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "load"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(28),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(28),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=5) "Store",
+      FieldUUID: (string) (len=1) "7",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=5) "store"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(11),
+      StartColumnNumber: (*int)(2),
+      EndLineNumber: (*int)(11),
+      EndColumnNumber: (*int)(6),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "person",
+      ObjectUUID: (string) (len=1) "8",
+      FieldName: (string) (len=4) "city",
+      FieldUUID: (string) (len=1) "9",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "person",
+      NormalizedFieldName: (string) (len=4) "city"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(15),
+      StartColumnNumber: (*int)(2),
+      EndLineNumber: (*int)(15),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "BodyStats",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=6) "height",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) (len=3) "int",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "bodystat",
+      NormalizedFieldName: (string) (len=6) "height"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "datatype.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(16),
+      StartColumnNumber: (*int)(2),
+      EndLineNumber: (*int)(16),
+      EndColumnNumber: (*int)(7),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "BodyStats",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=5) "width",
+      FieldUUID: (string) (len=2) "12",
+      FieldType: (string) (len=3) "int",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "bodystat",
+      NormalizedFieldName: (string) (len=5) "width"
+    }
+  })
+}

@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Fluentd",
+  "type": "internal_service",
+  "urls": [],
+  "packages": [
+    {
+      "name": "pino-fluentd",
+      "group": null,
+      "package_manager": "npm"
+    }
+  ],
+  "uuid": "b4620736-5d38-49f8-b6f1-b334ec93cfe0",
+  "sub_type": "message_bus"
+}

@@ -1,0 +1,60 @@
+([]*detections.Detection) (len=2) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=8) "paths.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(14),
+      StartColumnNumber: (*int)(2),
+      EndLineNumber: (*int)(14),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "Customer",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=6) "Client",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) (len=6) "Client",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "customer",
+      NormalizedFieldName: (string) (len=6) "client"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=6) "golang",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=8) "paths.go",
+      FullFilename: (string) "",
+      Language: (string) (len=2) "Go",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)((len=15) "\"something.com\"")
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=13) "something.com"
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  })
+}

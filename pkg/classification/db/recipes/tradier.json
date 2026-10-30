@@ -1,0 +1,13 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Tradier",
+  "type": "external_service",
+  "urls": [
+    "https://sandbox.tradier.com",
+    "https://stream.tradier.com",
+    "https://api.tradier.com"
+  ],
+  "packages": [],
+  "uuid": "1bc8c08a-980c-4923-a6a8-3d220cd6ff95",
+  "sub_type": "third_party"
+}

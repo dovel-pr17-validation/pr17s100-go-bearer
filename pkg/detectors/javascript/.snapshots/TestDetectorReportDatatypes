@@ -1,0 +1,1046 @@
+([]*detections.Detection) (len=36) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(2),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(2),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "user",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "Save",
+      FieldUUID: (string) (len=1) "2",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "save"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(3),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(3),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "user",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "user",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(5),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(5),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "user",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(5),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(5),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "name",
+      ObjectUUID: (string) (len=1) "3",
+      FieldName: (string) (len=7) "surname",
+      FieldUUID: (string) (len=1) "4",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "name",
+      NormalizedFieldName: (string) (len=7) "surname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "user",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "name",
+      ObjectUUID: (string) (len=1) "3",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=1) "5",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "name",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(16),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=1) "5",
+      FieldName: (string) (len=7) "surname",
+      FieldUUID: (string) (len=1) "6",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=7) "surname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(24),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(28),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "surname",
+      ObjectUUID: (string) (len=1) "6",
+      FieldName: (string) (len=4) "Save",
+      FieldUUID: (string) (len=1) "7",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "surname",
+      NormalizedFieldName: (string) (len=4) "save"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "user",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=1) "8",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(24),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(31),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "name",
+      ObjectUUID: (string) (len=1) "9",
+      FieldName: (string) (len=7) "surname",
+      FieldUUID: (string) (len=2) "10",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "name",
+      NormalizedFieldName: (string) (len=7) "surname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(16),
+      StartColumnNumber: (*int)(6),
+      EndLineNumber: (*int)(16),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "user",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=1) "8",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(16),
+      StartColumnNumber: (*int)(26),
+      EndLineNumber: (*int)(16),
+      EndColumnNumber: (*int)(35),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=2) "31",
+      FieldName: (string) (len=9) "something",
+      FieldUUID: (string) (len=2) "32",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=9) "something"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(16),
+      StartColumnNumber: (*int)(42),
+      EndLineNumber: (*int)(16),
+      EndColumnNumber: (*int)(46),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "todo",
+      ObjectUUID: (string) (len=2) "11",
+      FieldName: (string) (len=4) "list",
+      FieldUUID: (string) (len=2) "12",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "todo",
+      NormalizedFieldName: (string) (len=4) "list"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(25),
+      EndColumnNumber: (*int)(3),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=2) "40",
+      FieldName: (string) (len=7) "address",
+      FieldUUID: (string) (len=2) "41",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=7) "address"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(20),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(20),
+      EndColumnNumber: (*int)(7),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "address",
+      ObjectUUID: (string) (len=2) "41",
+      FieldName: (string) (len=4) "city",
+      FieldUUID: (string) (len=2) "42",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=4) "city"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(21),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(24),
+      EndColumnNumber: (*int)(4),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "address",
+      ObjectUUID: (string) (len=2) "41",
+      FieldName: (string) (len=6) "street",
+      FieldUUID: (string) (len=2) "43",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "address",
+      NormalizedFieldName: (string) (len=6) "street"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(22),
+      StartColumnNumber: (*int)(4),
+      EndLineNumber: (*int)(22),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "street",
+      ObjectUUID: (string) (len=2) "43",
+      FieldName: (string) (len=7) "letters",
+      FieldUUID: (string) (len=2) "44",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "street",
+      NormalizedFieldName: (string) (len=6) "letter"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(4),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "street",
+      ObjectUUID: (string) (len=2) "43",
+      FieldName: (string) (len=5) "numer",
+      FieldUUID: (string) (len=2) "45",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "street",
+      NormalizedFieldName: (string) (len=5) "numer"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(34),
+      StartColumnNumber: (*int)(14),
+      EndLineNumber: (*int)(34),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "path",
+      ObjectUUID: (string) (len=2) "14",
+      FieldName: (string) (len=4) "join",
+      FieldUUID: (string) (len=2) "15",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "path",
+      NormalizedFieldName: (string) (len=4) "join"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(42),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(42),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "myobject",
+      ObjectUUID: (string) (len=2) "18",
+      FieldName: (string) (len=6) "Method",
+      FieldUUID: (string) (len=2) "19",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "myobject",
+      NormalizedFieldName: (string) (len=6) "method"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(43),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(43),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "myobject",
+      ObjectUUID: (string) (len=2) "18",
+      FieldName: (string) (len=7) "Method1",
+      FieldUUID: (string) (len=2) "20",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "myobject",
+      NormalizedFieldName: (string) (len=7) "method1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(47),
+      StartColumnNumber: (*int)(12),
+      EndLineNumber: (*int)(47),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "myobject1",
+      ObjectUUID: (string) (len=2) "33",
+      FieldName: (string) (len=6) "Method",
+      FieldUUID: (string) (len=2) "34",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "myobject1",
+      NormalizedFieldName: (string) (len=6) "method"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(48),
+      StartColumnNumber: (*int)(12),
+      EndLineNumber: (*int)(48),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "myobject1",
+      ObjectUUID: (string) (len=2) "33",
+      FieldName: (string) (len=7) "Method1",
+      FieldUUID: (string) (len=2) "35",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "myobject1",
+      NormalizedFieldName: (string) (len=7) "method1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(53),
+      StartColumnNumber: (*int)(12),
+      EndLineNumber: (*int)(53),
+      EndColumnNumber: (*int)(18),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "myobject2",
+      ObjectUUID: (string) (len=2) "21",
+      FieldName: (string) (len=6) "Method",
+      FieldUUID: (string) (len=2) "22",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "myobject2",
+      NormalizedFieldName: (string) (len=6) "method"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(54),
+      StartColumnNumber: (*int)(12),
+      EndLineNumber: (*int)(54),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "myobject2",
+      ObjectUUID: (string) (len=2) "21",
+      FieldName: (string) (len=7) "Method1",
+      FieldUUID: (string) (len=2) "23",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "myobject2",
+      NormalizedFieldName: (string) (len=7) "method1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(60),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(60),
+      EndColumnNumber: (*int)(19),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "myobject3",
+      ObjectUUID: (string) (len=2) "36",
+      FieldName: (string) (len=6) "Method",
+      FieldUUID: (string) (len=2) "37",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "myobject3",
+      NormalizedFieldName: (string) (len=6) "method"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(61),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(61),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "myobject3",
+      ObjectUUID: (string) (len=2) "36",
+      FieldName: (string) (len=7) "Method1",
+      FieldUUID: (string) (len=2) "38",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "myobject3",
+      NormalizedFieldName: (string) (len=7) "method1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(66),
+      StartColumnNumber: (*int)(2),
+      EndLineNumber: (*int)(66),
+      EndColumnNumber: (*int)(6),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "something",
+      ObjectUUID: (string) (len=2) "46",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "47",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "something",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(76),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(76),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=2) "27",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "28",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(81),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(81),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=2) "49",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "50",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(84),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(84),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=2) "51",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "52",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(86),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(86),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=2) "53",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "54",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(88),
+      StartColumnNumber: (*int)(22),
+      EndLineNumber: (*int)(88),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=2) "55",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "56",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(90),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(90),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "module",
+      ObjectUUID: (string) (len=2) "29",
+      FieldName: (string) (len=7) "exports",
+      FieldUUID: (string) (len=2) "30",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "module",
+      NormalizedFieldName: (string) (len=6) "export"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "javascript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatypes.js",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "JavaScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(92),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(92),
+      EndColumnNumber: (*int)(7),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "exports",
+      ObjectUUID: (string) (len=2) "57",
+      FieldName: (string) (len=4) "path",
+      FieldUUID: (string) (len=2) "58",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "export",
+      NormalizedFieldName: (string) (len=4) "path"
+    }
+  })
+}

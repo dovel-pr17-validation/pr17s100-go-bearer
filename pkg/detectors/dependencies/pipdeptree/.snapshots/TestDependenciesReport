@@ -1,0 +1,738 @@
+([]*detections.Detection) (len=32) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "docutils",
+      Version: (string) (len=4) "0.11"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(15),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(15),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "django",
+      Version: (string) (len=6) "1.4.12"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "markdown",
+      Version: (string) (len=3) "2.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(31),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(31),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=19) "django-registration",
+      Version: (string) (len=3) "0.8"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(40),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(40),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=4) "nose",
+      Version: (string) (len=5) "1.3.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(46),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(46),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "django",
+      Version: (string) (len=6) "1.4.12"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(52),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(52),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=11) "django-nose",
+      Version: (string) (len=3) "1.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(60),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(60),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "coverage",
+      Version: (string) (len=5) "4.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(68),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(68),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=4) "nose",
+      Version: (string) (len=5) "1.3.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(77),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(77),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=3) "six",
+      Version: (string) (len=6) "1.11.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(83),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(83),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=12) "webencodings",
+      Version: (string) (len=5) "0.5.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(89),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(89),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "html5lib",
+      Version: (string) (len=5) "1.0.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(98),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(98),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=3) "pip",
+      Version: (string) (len=5) "9.0.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(104),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(104),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=10) "pipdeptree",
+      Version: (string) (len=6) "0.10.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(112),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(112),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=3) "six",
+      Version: (string) (len=6) "1.11.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(121),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(121),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=3) "six",
+      Version: (string) (len=6) "1.11.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(127),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(127),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "html5lib",
+      Version: (string) (len=5) "1.0.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(133),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(133),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "bleach",
+      Version: (string) (len=3) "1.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(141),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(141),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=11) "smartypants",
+      Version: (string) (len=5) "1.8.3"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(149),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(149),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=10) "setuptools",
+      Version: (string) (len=6) "38.2.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(157),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(157),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=5) "wheel",
+      Version: (string) (len=6) "0.30.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(165),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(165),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "sqlparse",
+      Version: (string) (len=5) "0.2.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(173),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(173),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=10) "virtualenv",
+      Version: (string) (len=6) "15.1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(181),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(181),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=5) "south",
+      Version: (string) (len=5) "0.8.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(189),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(189),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=12) "webencodings",
+      Version: (string) (len=5) "0.5.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(197),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(197),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "psycopg2",
+      Version: (string) (len=7) "2.7.3.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(205),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(205),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=3) "pip",
+      Version: (string) (len=5) "9.0.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(214),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(214),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "django",
+      Version: (string) (len=6) "1.4.12"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(220),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(220),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "sqlparse",
+      Version: (string) (len=5) "0.2.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(226),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(226),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=20) "django-debug-toolbar",
+      Version: (string) (len=4) "0.11"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(235),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(235),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "django",
+      Version: (string) (len=6) "1.4.12"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=10) "pipdeptree",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "pipdeptree.json",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(241),
+      StartColumnNumber: (*int)(19),
+      EndLineNumber: (*int)(241),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=13) "django-secure",
+      Version: (string) (len=3) "1.0"
+    }
+  })
+}

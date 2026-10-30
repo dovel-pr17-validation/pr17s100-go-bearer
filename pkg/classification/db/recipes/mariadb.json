@@ -1,0 +1,40 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "MariaDB",
+  "type": "data_store",
+  "urls": [],
+  "packages": [
+    {
+      "name": "mariadb",
+      "group": null,
+      "package_manager": "npm"
+    },
+    {
+      "name": "mariadb-connector-python",
+      "group": null,
+      "package_manager": "pypi"
+    },
+    {
+      "name": "mariadb-java-client",
+      "group": "org.mariadb.jdbc",
+      "package_manager": "maven"
+    },
+    {
+      "name": "mariadb-connector-cpp",
+      "group": null,
+      "package_manager": "nuget"
+    },
+    {
+      "name": "mariadb-connector-nodejs",
+      "group": null,
+      "package_manager": "npm"
+    },
+    {
+      "name": "db-mariadb",
+      "group": null,
+      "package_manager": "rubygems"
+    }
+  ],
+  "uuid": "873dde6f-ddd3-4689-b818-7877392c1aea",
+  "sub_type": "database"
+}

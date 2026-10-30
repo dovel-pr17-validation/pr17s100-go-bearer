@@ -1,0 +1,34 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Typeform",
+  "type": "external_service",
+  "urls": [
+    "https://*.typeform.com/*",
+    "https://*.typeform.com",
+    "https://api.typeform.com"
+  ],
+  "packages": [
+    {
+      "name": "watr/typeform",
+      "group": null,
+      "package_manager": "packagist"
+    },
+    {
+      "name": "typeform",
+      "group": null,
+      "package_manager": "pypi"
+    },
+    {
+      "name": "@typeform/api-client",
+      "group": null,
+      "package_manager": "npm"
+    },
+    {
+      "name": "create_api_gem",
+      "group": null,
+      "package_manager": "rubygems"
+    }
+  ],
+  "uuid": "35f2e1d7-af0c-482a-85c5-aeca9b746477",
+  "sub_type": "third_party"
+}

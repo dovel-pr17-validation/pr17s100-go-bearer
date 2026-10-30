@@ -1,0 +1,44 @@
+([]*detections.FrameworkDetection) (len=2) {
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "django",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=17) "myapp/settings.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(84),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(84),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)(<nil>)
+    },
+    Value: (django.Database) {
+      Name: (string) (len=7) "default",
+      Engine: (string) (len=29) "django.db.backends.postgresql"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "django",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=17) "myapp/settings.py",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Python",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(90),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(90),
+      EndColumnNumber: (*int)(12),
+      Text: (*string)(<nil>)
+    },
+    Value: (django.Database) {
+      Name: (string) (len=5) "users",
+      Engine: (string) (len=24) "django.db.backends.mysql"
+    }
+  })
+}

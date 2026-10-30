@@ -1,0 +1,1905 @@
+([]*detections.Detection) (len=67) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(34),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(34),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=4) "post")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=4) "/pet",
+      Type: (string) (len=4) "POST",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(63),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(63),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "put")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=4) "/pet",
+      Type: (string) (len=3) "PUT",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(94),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(94),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=17) "/pet/findByStatus",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(131),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(131),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=15) "/pet/findByTags",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(163),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(163),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=6) "/pet/*",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(190),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(190),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=4) "post")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=6) "/pet/*",
+      Type: (string) (len=4) "POST",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(225),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(225),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=6) "delete")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=6) "/pet/*",
+      Type: (string) (len=6) "DELETE",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(253),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(253),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=4) "post")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=18) "/pet/*/uploadImage",
+      Type: (string) (len=4) "POST",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(290),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(290),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=16) "/store/inventory",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(310),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(310),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=4) "post")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=12) "/store/order",
+      Type: (string) (len=4) "POST",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(334),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(334),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=14) "/store/order/*",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(361),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(361),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=6) "delete")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=14) "/store/order/*",
+      Type: (string) (len=6) "DELETE",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(387),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(387),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=4) "post")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=5) "/user",
+      Type: (string) (len=4) "POST",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(407),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(407),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=4) "post")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=21) "/user/createWithArray",
+      Type: (string) (len=4) "POST",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(429),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(429),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=4) "post")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=20) "/user/createWithList",
+      Type: (string) (len=4) "POST",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(451),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(451),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=11) "/user/login",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(488),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(488),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=12) "/user/logout",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(502),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(502),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "get")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=7) "/user/*",
+      Type: (string) (len=3) "GET",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(526),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(526),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)((len=3) "put")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=7) "/user/*",
+      Type: (string) (len=3) "PUT",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "operation",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(552),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(552),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=6) "delete")
+    },
+    Value: (operations.Operation) {
+      Path: (string) (len=7) "/user/*",
+      Type: (string) (len=6) "DELETE",
+      Urls: ([]operations.Url) (len=1) {
+        (operations.Url) {
+          Url: (string) (len=29) "http://petstore.swagger.io/v2",
+          Variables: ([]operations.Variable) <nil>
+        }
+      }
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(48),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(48),
+      EndColumnNumber: (*int)(22),
+      Text: (*string)((len=5) "\"id1\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "addPet",
+      ObjectUUID: (string) (len=4) "9262",
+      FieldName: (string) (len=3) "id1",
+      FieldUUID: (string) (len=4) "9301",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(53),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(53),
+      EndColumnNumber: (*int)(22),
+      Text: (*string)((len=5) "\"id2\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "addPet",
+      ObjectUUID: (string) (len=4) "9262",
+      FieldName: (string) (len=3) "id2",
+      FieldUUID: (string) (len=4) "9335",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(104),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(104),
+      EndColumnNumber: (*int)(25),
+      Text: (*string)((len=8) "\"status\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=16) "findPetsByStatus",
+      ObjectUUID: (string) (len=4) "9597",
+      FieldName: (string) (len=6) "status",
+      FieldUUID: (string) (len=4) "9618",
+      FieldType: (string) (len=5) "array",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(141),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(141),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)((len=6) "\"tags\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=14) "findPetsByTags",
+      ObjectUUID: (string) (len=4) "9802",
+      FieldName: (string) (len=4) "tags",
+      FieldUUID: (string) (len=4) "9823",
+      FieldType: (string) (len=5) "array",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(173),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(173),
+      EndColumnNumber: (*int)(24),
+      Text: (*string)((len=7) "\"petId\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=10) "getPetById",
+      ObjectUUID: (string) (len=4) "9986",
+      FieldName: (string) (len=5) "petId",
+      FieldUUID: (string) (len=5) "10007",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(202),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(202),
+      EndColumnNumber: (*int)(24),
+      Text: (*string)((len=7) "\"petId\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "updatePetWithForm",
+      ObjectUUID: (string) (len=5) "10146",
+      FieldName: (string) (len=5) "petId",
+      FieldUUID: (string) (len=5) "10176",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(208),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(208),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)((len=6) "\"name\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "updatePetWithForm",
+      ObjectUUID: (string) (len=5) "10146",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=5) "10216",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(213),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(213),
+      EndColumnNumber: (*int)(25),
+      Text: (*string)((len=8) "\"status\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "updatePetWithForm",
+      ObjectUUID: (string) (len=5) "10146",
+      FieldName: (string) (len=6) "status",
+      FieldUUID: (string) (len=5) "10250",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(235),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(235),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)((len=9) "\"api_key\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "deletePet",
+      ObjectUUID: (string) (len=5) "10353",
+      FieldName: (string) (len=7) "api_key",
+      FieldUUID: (string) (len=5) "10374",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(239),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(239),
+      EndColumnNumber: (*int)(24),
+      Text: (*string)((len=7) "\"petId\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "deletePet",
+      ObjectUUID: (string) (len=5) "10353",
+      FieldName: (string) (len=5) "petId",
+      FieldUUID: (string) (len=5) "10402",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(264),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(264),
+      EndColumnNumber: (*int)(24),
+      Text: (*string)((len=7) "\"petId\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=10) "uploadFile",
+      ObjectUUID: (string) (len=5) "10517",
+      FieldName: (string) (len=5) "petId",
+      FieldUUID: (string) (len=5) "10544",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(270),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(270),
+      EndColumnNumber: (*int)(37),
+      Text: (*string)((len=20) "\"additionalMetadata\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=10) "uploadFile",
+      ObjectUUID: (string) (len=5) "10517",
+      FieldName: (string) (len=18) "additionalMetadata",
+      FieldUUID: (string) (len=5) "10584",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(275),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(275),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)((len=6) "\"file\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=10) "uploadFile",
+      ObjectUUID: (string) (len=5) "10517",
+      FieldName: (string) (len=4) "file",
+      FieldUUID: (string) (len=5) "10618",
+      FieldType: (string) (len=4) "file",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(344),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(344),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)((len=9) "\"orderId\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "getOrderById",
+      ObjectUUID: (string) (len=5) "10995",
+      FieldName: (string) (len=7) "orderId",
+      FieldUUID: (string) (len=5) "11016",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(371),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(371),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)((len=9) "\"orderId\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "deleteOrder",
+      ObjectUUID: (string) (len=5) "11154",
+      FieldName: (string) (len=7) "orderId",
+      FieldUUID: (string) (len=5) "11175",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(377),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(377),
+      EndColumnNumber: (*int)(24),
+      Text: (*string)((len=7) "\"email\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "deleteOrder",
+      ObjectUUID: (string) (len=5) "11154",
+      FieldName: (string) (len=5) "email",
+      FieldUUID: (string) (len=5) "11216",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(461),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(461),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)((len=10) "\"username\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "loginUser",
+      ObjectUUID: (string) (len=5) "11679",
+      FieldName: (string) (len=8) "username",
+      FieldUUID: (string) (len=5) "11700",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(466),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(466),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)((len=10) "\"password\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "loginUser",
+      ObjectUUID: (string) (len=5) "11679",
+      FieldName: (string) (len=8) "password",
+      FieldUUID: (string) (len=5) "11734",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(512),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(512),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)((len=10) "\"username\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=13) "getUserByName",
+      ObjectUUID: (string) (len=5) "11975",
+      FieldName: (string) (len=8) "username",
+      FieldUUID: (string) (len=5) "11996",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(536),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(536),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)((len=10) "\"username\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=10) "updateUser",
+      ObjectUUID: (string) (len=5) "12114",
+      FieldName: (string) (len=8) "username",
+      FieldUUID: (string) (len=5) "12135",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(562),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(562),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)((len=10) "\"username\"")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=10) "deleteUser",
+      ObjectUUID: (string) (len=5) "12269",
+      FieldName: (string) (len=8) "username",
+      FieldUUID: (string) (len=5) "12290",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(588),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(588),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=2) "id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "Order",
+      ObjectUUID: (string) (len=5) "12439",
+      FieldName: (string) (len=2) "id",
+      FieldUUID: (string) (len=5) "12451",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(591),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(591),
+      EndColumnNumber: (*int)(12),
+      Text: (*string)((len=5) "petId")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "Order",
+      ObjectUUID: (string) (len=5) "12439",
+      FieldName: (string) (len=5) "petId",
+      FieldUUID: (string) (len=5) "12469",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(594),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(594),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)((len=8) "quantity")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "Order",
+      ObjectUUID: (string) (len=5) "12439",
+      FieldName: (string) (len=8) "quantity",
+      FieldUUID: (string) (len=5) "12487",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(597),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(597),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)((len=8) "shipDate")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "Order",
+      ObjectUUID: (string) (len=5) "12439",
+      FieldName: (string) (len=8) "shipDate",
+      FieldUUID: (string) (len=5) "12505",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(600),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(600),
+      EndColumnNumber: (*int)(13),
+      Text: (*string)((len=6) "status")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "Order",
+      ObjectUUID: (string) (len=5) "12439",
+      FieldName: (string) (len=6) "status",
+      FieldUUID: (string) (len=5) "12523",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(607),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(607),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)((len=8) "complete")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "Order",
+      ObjectUUID: (string) (len=5) "12439",
+      FieldName: (string) (len=8) "complete",
+      FieldUUID: (string) (len=5) "12556",
+      FieldType: (string) (len=7) "boolean",
+      SimpleFieldType: (string) (len=7) "boolean",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(615),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(615),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=4) "name")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "Person",
+      ObjectUUID: (string) (len=5) "12593",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=5) "12605",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(620),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(620),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=2) "id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=2) "id",
+      FieldUUID: (string) (len=5) "12635",
+      FieldType: (string) (len=6) "object",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(623),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(623),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)((len=3) "id1")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=2) "id",
+      ObjectUUID: (string) (len=5) "12635",
+      FieldName: (string) (len=3) "id1",
+      FieldUUID: (string) (len=5) "12647",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(625),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(625),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)((len=3) "id2")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=2) "id",
+      ObjectUUID: (string) (len=5) "12635",
+      FieldName: (string) (len=3) "id2",
+      FieldUUID: (string) (len=5) "12659",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(627),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(627),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)((len=8) "username")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=8) "username",
+      FieldUUID: (string) (len=5) "12677",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(629),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(629),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)((len=9) "firstName")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=9) "firstName",
+      FieldUUID: (string) (len=5) "12689",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(631),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(631),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)((len=8) "lastName")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=8) "lastName",
+      FieldUUID: (string) (len=5) "12701",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(633),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(633),
+      EndColumnNumber: (*int)(12),
+      Text: (*string)((len=5) "email")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=5) "email",
+      FieldUUID: (string) (len=5) "12713",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(635),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(635),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)((len=8) "password")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=8) "password",
+      FieldUUID: (string) (len=5) "12725",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(637),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(637),
+      EndColumnNumber: (*int)(12),
+      Text: (*string)((len=5) "phone")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=5) "phone",
+      FieldUUID: (string) (len=5) "12737",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(639),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(639),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)((len=10) "userStatus")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=5) "12623",
+      FieldName: (string) (len=10) "userStatus",
+      FieldUUID: (string) (len=5) "12749",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(648),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(648),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=2) "id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "Category",
+      ObjectUUID: (string) (len=5) "12791",
+      FieldName: (string) (len=2) "id",
+      FieldUUID: (string) (len=5) "12803",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(651),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(651),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=4) "name")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "Category",
+      ObjectUUID: (string) (len=5) "12791",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=5) "12821",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(658),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(658),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)((len=2) "id")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Tag",
+      ObjectUUID: (string) (len=5) "12851",
+      FieldName: (string) (len=2) "id",
+      FieldUUID: (string) (len=5) "12863",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(661),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(661),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=4) "name")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Tag",
+      ObjectUUID: (string) (len=5) "12851",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=5) "12881",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(670),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(670),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=4) "code")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "ApiResponse",
+      ObjectUUID: (string) (len=5) "12924",
+      FieldName: (string) (len=4) "code",
+      FieldUUID: (string) (len=5) "12936",
+      FieldType: (string) (len=7) "integer",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(673),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(673),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=4) "type")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "ApiResponse",
+      ObjectUUID: (string) (len=5) "12924",
+      FieldName: (string) (len=4) "type",
+      FieldUUID: (string) (len=5) "12954",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(675),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(675),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)((len=7) "message")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "ApiResponse",
+      ObjectUUID: (string) (len=5) "12924",
+      FieldName: (string) (len=7) "message",
+      FieldUUID: (string) (len=5) "12966",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(677),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(677),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)((len=4) "test")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "ApiResponse",
+      ObjectUUID: (string) (len=5) "12924",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=5) "12978",
+      FieldType: (string) (len=6) "object",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=7) "openapi",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=21) "petstore-swagger.yaml",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "OASv2-yaml",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(680),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(680),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)((len=12) "testproperty")
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=5) "12978",
+      FieldName: (string) (len=12) "testproperty",
+      FieldUUID: (string) (len=5) "12990",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) "",
+      NormalizedFieldName: (string) ""
+    }
+  })
+}

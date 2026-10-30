@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Aerospike",
+  "type": "data_store",
+  "urls": [],
+  "packages": [
+    {
+      "name": "github.com/aerospike/aerospike-client-go",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "04acee0b-17a2-4c53-83c4-2a37204e487e",
+  "sub_type": "database"
+}

@@ -1,0 +1,13 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Hugging Face",
+  "type": "external_service",
+  "urls": [
+    "https://cdn-datasets.huggingface.co",
+    "https://cdn.huggingface.co",
+    "https://huggingface.co"
+  ],
+  "packages": [],
+  "uuid": "b6d81504-7282-45a1-a8ac-3256622f40db",
+  "sub_type": "third_party"
+}

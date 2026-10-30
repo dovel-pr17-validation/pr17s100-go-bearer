@@ -1,0 +1,176 @@
+([]*detections.Detection) (len=6) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=6) "simple",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=10) "unknown.pl",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Raku",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(16),
+      StartColumnNumber: (*int)(14),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=23) "https://url.example.com"
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=6) "simple",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=10) "unknown.pl",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Raku",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(14),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=35) "https://multi-a.example.com/foo?x=1"
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=6) "simple",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=10) "unknown.pl",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Raku",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(53),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=31) "https://multi-b.example.com/bar"
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=6) "simple",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=10) "unknown.pl",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Raku",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(24),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=38) "https://port1.example.com:3000/foo?x=1"
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=6) "simple",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=10) "unknown.pl",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Raku",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(24),
+      StartColumnNumber: (*int)(39),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=30) "https://port2.example.com:3000"
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=6) "simple",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=10) "unknown.pl",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Raku",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(27),
+      StartColumnNumber: (*int)(1),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=23) "http://link.example.com"
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  })
+}

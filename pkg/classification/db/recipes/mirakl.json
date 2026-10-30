@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Mirakl",
+  "type": "external_service",
+  "urls": [],
+  "packages": [
+    {
+      "name": "mirakl/sdk-php-shop",
+      "group": null,
+      "package_manager": "packagist"
+    }
+  ],
+  "uuid": "a1f0de2b-55a1-4848-b8a2-2c61bed8b737",
+  "sub_type": "third_party"
+}

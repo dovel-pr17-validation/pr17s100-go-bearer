@@ -1,0 +1,60 @@
+([]*detections.Detection) (len=2) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=8) "env_file",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) ".envrc.example",
+      FullFilename: (string) "",
+      Language: (string) "",
+      LanguageType: (string) "",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(60),
+      Text: (*string)((len=52) "AGENT_REPORT_HOST=\"https://agent.staging.google.com\"")
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=32) "https://agent.staging.google.com"
+          })
+        }
+      }),
+      VariableName: (string) (len=17) "AGENT_REPORT_HOST"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=8) "env_file",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) ".envrc.example",
+      FullFilename: (string) "",
+      Language: (string) "",
+      LanguageType: (string) "",
+      StartLineNumber: (*int)(8),
+      StartColumnNumber: (*int)(8),
+      EndLineNumber: (*int)(8),
+      EndColumnNumber: (*int)(83),
+      Text: (*string)((len=75) "WEBHOOKS_ADDRESS=\"https://webhooks.staging.google.com/webhook/webhook/v1/t\"")
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=1) {
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=56) "https://webhooks.staging.google.com/webhook/webhook/v1/t"
+          })
+        }
+      }),
+      VariableName: (string) (len=16) "WEBHOOKS_ADDRESS"
+    }
+  })
+}

@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "userlike.com",
+  "type": "external_service",
+  "urls": [
+    "https://api.userlike.com"
+  ],
+  "packages": [],
+  "uuid": "7c3a5f02-43a0-49d0-8438-a269622c0eb7",
+  "sub_type": "third_party"
+}

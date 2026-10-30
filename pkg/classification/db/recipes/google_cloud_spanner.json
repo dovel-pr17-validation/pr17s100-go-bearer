@@ -1,0 +1,25 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Google Cloud Spanner",
+  "type": "data_store",
+  "urls": [],
+  "packages": [
+    {
+      "name": "cloud.google.com/go/spanner",
+      "group": null,
+      "package_manager": "go"
+    },
+    {
+      "name": "google-cloud-spanner",
+      "group": null,
+      "package_manager": "pypi"
+    },
+    {
+      "name": "google-cloud-spanner",
+      "group": "com.google.cloud",
+      "package_manager": "maven"
+    }
+  ],
+  "uuid": "4f76d9ef-77e1-42f7-ac04-11147c151a82",
+  "sub_type": "database"
+}

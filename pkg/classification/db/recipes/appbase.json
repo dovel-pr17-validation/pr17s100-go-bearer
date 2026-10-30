@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Appbase",
+  "type": "external_service",
+  "urls": [
+    "https://api.appbase.io"
+  ],
+  "packages": [],
+  "uuid": "ac4faf1f-01c1-427e-97e1-f8d865fc8722",
+  "sub_type": "third_party"
+}

@@ -1,0 +1,13 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Front",
+  "type": "external_service",
+  "urls": [
+    "https://webhook.frontapp.com",
+    "https://api2.frontapp.com",
+    "https://chat-assets.frontapp.com/"
+  ],
+  "packages": [],
+  "uuid": "4c83b690-94ad-4a72-8169-a6ab43588de5",
+  "sub_type": "third_party"
+}

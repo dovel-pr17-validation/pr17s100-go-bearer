@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Centrify",
+  "type": "external_service",
+  "urls": [],
+  "packages": [
+    {
+      "name": "github.com/centrify/cloud-golang-sdk",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "fba3b838-20fa-4a40-9e3e-b6c3a40c708a",
+  "sub_type": "third_party"
+}

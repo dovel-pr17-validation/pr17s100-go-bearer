@@ -1,0 +1,94 @@
+([]*detections.Detection) (len=4) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=16) "requirements.txt",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "requirements.txt",
+      FullFilename: (string) "",
+      Language: (string) (len=16) "Pip Requirements",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(2),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(2),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=5) "Babel",
+      Version: (string) (len=5) "0.9.5"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=16) "requirements.txt",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "requirements.txt",
+      FullFilename: (string) "",
+      Language: (string) (len=16) "Pip Requirements",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(3),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(3),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "CherryPy",
+      Version: (string) (len=7) "unknown"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=16) "requirements.txt",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "requirements.txt",
+      FullFilename: (string) "",
+      Language: (string) (len=16) "Pip Requirements",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=12) "Creoleparser",
+      Version: (string) (len=5) "0.7.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=16) "requirements.txt",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=16) "requirements.txt",
+      FullFilename: (string) "",
+      Language: (string) (len=16) "Pip Requirements",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(5),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(5),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "Genshi",
+      Version: (string) (len=5) "0.5.1"
+    }
+  })
+}

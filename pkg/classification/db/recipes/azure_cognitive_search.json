@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Azure Cognitive Search",
+  "type": "data_store",
+  "urls": [],
+  "packages": [
+    {
+      "name": "Microsoft.Azure.Search",
+      "group": "",
+      "package_manager": "nuget"
+    }
+  ],
+  "uuid": "efb12c61-a48f-4193-a2ce-08807b4c2e07",
+  "sub_type": "search_engine"
+}

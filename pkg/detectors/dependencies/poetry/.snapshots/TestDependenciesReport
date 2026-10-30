@@ -1,0 +1,439 @@
+([]*detections.Detection) (len=19) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=12) "atomicwrites",
+      Version: (string) (len=5) "1.3.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(12),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(12),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=5) "attrs",
+      Version: (string) (len=6) "19.1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(21),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(21),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "colorama",
+      Version: (string) (len=5) "0.4.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(29),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(29),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "django",
+      Version: (string) (len=5) "2.2.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(41),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(41),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=19) "djangorestframework",
+      Version: (string) (len=5) "3.8.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(49),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(49),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=18) "importlib-metadata",
+      Version: (string) (len=4) "0.23"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(60),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(60),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=14) "more-itertools",
+      Version: (string) (len=5) "7.2.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(68),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(68),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=9) "packaging",
+      Version: (string) (len=4) "19.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(80),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(80),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "pluggy",
+      Version: (string) (len=6) "0.13.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(93),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(93),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=2) "py",
+      Version: (string) (len=5) "1.8.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(101),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(101),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=9) "pyparsing",
+      Version: (string) (len=5) "2.4.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(109),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(109),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "pytest",
+      Version: (string) (len=5) "4.6.5"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(132),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(132),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=4) "pytz",
+      Version: (string) (len=6) "2019.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(140),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(140),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "requests",
+      Version: (string) (len=5) "2.5.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(148),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(148),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=3) "six",
+      Version: (string) (len=6) "1.12.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(156),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(156),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "sqlparse",
+      Version: (string) (len=5) "0.3.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(164),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(164),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=7) "wcwidth",
+      Version: (string) (len=5) "0.1.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(172),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(172),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=8) "werkzeug",
+      Version: (string) (len=6) "0.15.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=6) "poetry",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=11) "poetry.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(180),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(180),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=4) "zipp",
+      Version: (string) (len=5) "0.6.0"
+    }
+  })
+}

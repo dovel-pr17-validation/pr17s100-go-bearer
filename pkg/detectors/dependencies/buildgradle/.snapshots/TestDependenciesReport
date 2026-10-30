@@ -1,0 +1,48 @@
+([]*detections.Detection) (len=2) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gradleparser",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "build.gradle",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Gradle",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(30),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(30),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=18) "androidx.appcompat",
+      Name: (string) (len=9) "appcompat",
+      Version: (string) (len=5) "1.0.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "gradleparser",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "build.gradle",
+      FullFilename: (string) "",
+      Language: (string) (len=6) "Gradle",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(31),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(31),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=25) "androidx.constraintlayout",
+      Name: (string) (len=16) "constraintlayout",
+      Version: (string) (len=5) "1.1.3"
+    }
+  })
+}

@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "paylocity",
+  "type": "external_service",
+  "urls": [
+    "https://api.paylocity.com/api"
+  ],
+  "packages": [],
+  "uuid": "eefaabf0-3440-4fe5-abf0-ff040eb830e1",
+  "sub_type": "third_party"
+}

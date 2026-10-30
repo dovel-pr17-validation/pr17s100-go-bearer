@@ -1,0 +1,163 @@
+([]*detections.Detection) (len=7) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "composerlock",
+    DetectorLanguage: (detectors.Language) (len=3) "php",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=13) "composer.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=9) "packagist",
+      Group: (string) "",
+      Name: (string) (len=14) "league/climate",
+      Version: (string) (len=5) "2.4.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "composerlock",
+    DetectorLanguage: (detectors.Language) (len=3) "php",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=13) "composer.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(59),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(59),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=9) "packagist",
+      Group: (string) "",
+      Name: (string) (len=20) "t4web/authentication",
+      Version: (string) (len=10) "dev-master"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "composerlock",
+    DetectorLanguage: (detectors.Language) (len=3) "php",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=13) "composer.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(107),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(107),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=9) "packagist",
+      Group: (string) "",
+      Name: (string) (len=26) "t4web/composer-lock-parser",
+      Version: (string) (len=5) "0.1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "composerlock",
+    DetectorLanguage: (detectors.Language) (len=3) "php",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=13) "composer.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(151),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(151),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=9) "packagist",
+      Group: (string) "",
+      Name: (string) (len=13) "t4web/modules",
+      Version: (string) (len=10) "dev-master"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "composerlock",
+    DetectorLanguage: (detectors.Language) (len=3) "php",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=13) "composer.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(202),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(202),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=9) "packagist",
+      Group: (string) "",
+      Name: (string) (len=27) "zendframework/zendframework",
+      Version: (string) (len=5) "2.3.3"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "composerlock",
+    DetectorLanguage: (detectors.Language) (len=3) "php",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=13) "composer.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(320),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(320),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=9) "packagist",
+      Group: (string) "",
+      Name: (string) (len=21) "zendframework/zendxml",
+      Version: (string) (len=5) "1.0.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=12) "composerlock",
+    DetectorLanguage: (detectors.Language) (len=3) "php",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=13) "composer.lock",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "JSON",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(365),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(365),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=9) "packagist",
+      Group: (string) "",
+      Name: (string) (len=19) "zf-commons/zfc-base",
+      Version: (string) (len=10) "dev-master"
+    }
+  })
+}

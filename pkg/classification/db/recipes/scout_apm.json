@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Scout APM",
+  "type": "external_service",
+  "urls": [
+    "https://scoutapm.com/api"
+  ],
+  "packages": [],
+  "uuid": "42d4d4c4-7a72-4456-bcc5-0902a584e8f2",
+  "sub_type": "third_party"
+}

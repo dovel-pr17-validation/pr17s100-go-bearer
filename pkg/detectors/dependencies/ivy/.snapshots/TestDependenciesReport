@@ -1,0 +1,370 @@
+([]*detections.Detection) (len=16) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(15),
+      StartColumnNumber: (*int)(63),
+      EndLineNumber: (*int)(15),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=26) "net.sourceforge.freemarker",
+      Name: (string) (len=10) "freemarker",
+      Version: (string) (len=6) "2.3.15"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(33),
+      StartColumnNumber: (*int)(51),
+      EndLineNumber: (*int)(33),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=14) "net.miginfocom",
+      Name: (string) (len=9) "miglayout",
+      Version: (string) (len=5) "3.6.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(51),
+      StartColumnNumber: (*int)(47),
+      EndLineNumber: (*int)(51),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=10) "com.svnkit",
+      Name: (string) (len=6) "svnkit",
+      Version: (string) (len=5) "1.2.2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(73),
+      StartColumnNumber: (*int)(53),
+      EndLineNumber: (*int)(73),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=16) "net.java.dev.jna",
+      Name: (string) (len=3) "jna",
+      Version: (string) (len=5) "3.0.9"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(85),
+      StartColumnNumber: (*int)(47),
+      EndLineNumber: (*int)(85),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=10) "org.testng",
+      Name: (string) (len=6) "testng",
+      Version: (string) (len=3) "5.8"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(103),
+      StartColumnNumber: (*int)(56),
+      EndLineNumber: (*int)(103),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=19) "org.springframework",
+      Name: (string) (len=6) "spring",
+      Version: (string) (len=5) "2.5.6"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(142),
+      StartColumnNumber: (*int)(52),
+      EndLineNumber: (*int)(142),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=15) "org.aopalliance",
+      Name: (string) (len=11) "aopalliance",
+      Version: (string) (len=3) "1.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(157),
+      StartColumnNumber: (*int)(46),
+      EndLineNumber: (*int)(157),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=9) "org.slf4j",
+      Name: (string) (len=5) "slf4j",
+      Version: (string) (len=5) "1.5.6"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(178),
+      StartColumnNumber: (*int)(53),
+      EndLineNumber: (*int)(178),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=16) "org.apache.log4j",
+      Name: (string) (len=5) "log4j",
+      Version: (string) (len=6) "1.2.15"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(193),
+      StartColumnNumber: (*int)(56),
+      EndLineNumber: (*int)(193),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=19) "org.codehaus.groovy",
+      Name: (string) (len=6) "groovy",
+      Version: (string) (len=5) "1.5.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(205),
+      StartColumnNumber: (*int)(55),
+      EndLineNumber: (*int)(205),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=18) "org.apache.commons",
+      Name: (string) (len=12) "commons-lang",
+      Version: (string) (len=3) "2.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(223),
+      StartColumnNumber: (*int)(55),
+      EndLineNumber: (*int)(223),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=18) "org.apache.commons",
+      Name: (string) (len=18) "commons-httpclient",
+      Version: (string) (len=3) "3.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(235),
+      StartColumnNumber: (*int)(55),
+      EndLineNumber: (*int)(235),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=18) "org.apache.commons",
+      Name: (string) (len=13) "commons-codec",
+      Version: (string) (len=3) "1.3"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(253),
+      StartColumnNumber: (*int)(55),
+      EndLineNumber: (*int)(253),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=18) "org.apache.commons",
+      Name: (string) (len=15) "commons-logging",
+      Version: (string) (len=5) "1.1.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(272),
+      StartColumnNumber: (*int)(51),
+      EndLineNumber: (*int)(272),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=14) "org.apache.ant",
+      Name: (string) (len=3) "ant",
+      Version: (string) (len=5) "1.7.1"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=3) "ivy",
+    DetectorLanguage: (detectors.Language) (len=4) "java",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "ivy-report.xml",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(287),
+      StartColumnNumber: (*int)(50),
+      EndLineNumber: (*int)(287),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "maven",
+      Group: (string) (len=13) "javax.servlet",
+      Name: (string) (len=10) "servletapi",
+      Version: (string) (len=3) "2.4"
+    }
+  })
+}

@@ -1,0 +1,9 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Disk",
+  "type": "data_store",
+  "urls": [],
+  "packages": [],
+  "uuid": "39747024-c306-4a95-a0df-7e585a33a86f",
+  "sub_type": "flat_file"
+}

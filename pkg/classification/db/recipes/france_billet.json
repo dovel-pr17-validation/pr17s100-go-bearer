@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "France Billet",
+  "type": "external_service",
+  "urls": [
+    "https://billetweb.fr/api"
+  ],
+  "packages": [],
+  "uuid": "c2d64406-aa0f-4029-8ed8-1c6b1ce549e8",
+  "sub_type": "third_party"
+}

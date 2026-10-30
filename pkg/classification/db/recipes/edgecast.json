@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Edgecast",
+  "type": "external_service",
+  "urls": [
+    "https://api.edgecast.com"
+  ],
+  "packages": [],
+  "uuid": "1fd78c5c-ecbe-4aaf-ade6-b39f8b649f1e",
+  "sub_type": "third_party"
+}

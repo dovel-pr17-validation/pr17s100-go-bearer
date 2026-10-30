@@ -1,0 +1,131 @@
+---
+title: Rules
+---
+{# This content of this page is generated. #}
+{% renderTemplate "liquid,md" %}
+# Rules
+
+Rules are ways to detect security risks and vulnerabilities across your codebase and enforce best practices. Bearer CLI's [security report](/explanations/reports/#security-report) allows you to quickly identify rule violations in your code.
+
+The built-in rules aim to keep you protected from the most critical security risks and vulnerabilities of web applications and include corresponding [Common Weakness Enumeration](https://cwe.mitre.org/data/index.html) (CWE) and [OWASP](https://owasp.org/Top10) links to help you identify them.
+
+Don't find a rule you are looking for? You can develop a [custom rule](https://docs.bearer.com/guides/custom-rule/) that allow you to add specific requirements to suit your organization's needs.
+
+{% endrenderTemplate %}
+
+<form action="" id="rule-search">
+  <label for="search-input" class="font-bold">Search <span class="font-normal italic">&lpar;<span class="js-rule-count">{{rules.rules | length}}</span> results&rpar;</span></label>
+  <input class="block w-full px-4 py-2 border-neutral-300 border-2 rounded dark:text-neutral-500" type="search" name="q" id="search-input" placeholder="Try searching for CWE-201, encryption, rails, etc.">
+
+  <div class="flex justify-end gap-2 mt-4">
+    <button type="button" class="js-filter-reset flex justify-between items-center px-2 border-2 border-neutral-200 dark:border-neutral-500 rounded hover:border-main disabled:bg-neutral-200 disabled:text-neutral-300 disabled:hover:border-neutral-200" disabled>Clear Filters</button>
+    <div class="js-filter-container relative">
+      <button type="button" class="js-filter-button flex justify-between items-center px-2 border-2 border-neutral-200 dark:border-neutral-500 rounded hover:border-main">
+        <span>Languages &lpar;<span class="js-lang-count">All</span>&rpar;</span>
+        <div class="">{% include 'icon-chevron.njk'%}</div>
+      </button>
+      <ul class="js-filter-list list-none mt-2 p-0 not-prose hidden" id="lang-filters">
+        <li>
+          <input type="checkbox" name="lang-ruby" id="lang-ruby" class='filter-toggle' value="ruby">
+          <label for="lang-ruby" class="toggle-label">Ruby</label>
+        </li>
+        <li>
+          <input type="checkbox" name="lang-jsts" id="lang-jsts" class='filter-toggle' value="javascript">
+          <label for="lang-jsts" class="toggle-label">JavaScript / TypeScript</label>
+        </li>
+        <li>
+          <input type="checkbox" name="lang-java" id="lang-java" class='filter-toggle' value="java_">
+          <label for="lang-java" class="toggle-label">Java</label>
+        </li>
+        <li>
+          <input type="checkbox" name="lang-php" id="lang-php" class='filter-toggle' value="php_">
+          <label for="lang-php" class="toggle-label">PHP</label>
+        </li>
+          <li>
+          <input type="checkbox" name="lang-go" id="lang-go" class='filter-toggle' value="go_">
+          <label for="lang-go" class="toggle-label">Go</label>
+        </li>
+        <li>
+          <input type="checkbox" name="lang-python" id="lang-python" class='filter-toggle' value="python_">
+          <label for="lang-python" class="toggle-label">Python</label>
+        </li>
+      </ul>
+    </div>
+    <div class="js-filter-container relative">
+      <button type="button" class="js-filter-button flex justify-between items-center px-2 border-2 border-neutral-200 dark:border-neutral-500 rounded hover:border-main">
+        <span>OWASP &lpar;<span class="js-owasp-count">All</span>&rpar;</span>
+        <div class="">{% include 'icon-chevron.njk'%}</div>
+      </button>
+      <ul class="js-filter-list list-none mt-2 p-0 not-prose hidden" id="owasp-filters">
+        <li>
+          <input type="checkbox" name="owasp-01" id="owasp-01" class='filter-toggle' value="A01:2021">
+          <label for="owasp-01" class="toggle-label">A01: Broken Access Control</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-02" id="owasp-02" class='filter-toggle' value="A02:2021">
+          <label for="owasp-02" class="toggle-label">A02: Cryptographic Failures</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-03" id="owasp-03" class='filter-toggle' value="A03:2021">
+          <label for="owasp-03" class="toggle-label">A03: Injection</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-04" id="owasp-04" class='filter-toggle' value="A04:2021">
+          <label for="owasp-04" class="toggle-label">A04: Insecure Design</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-05" id="owasp-05" class='filter-toggle' value="A05:2021">
+          <label for="owasp-05" class="toggle-label">A05: Security Misconfiguration</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-06" id="owasp-06" class='filter-toggle' value="A06:2021">
+          <label for="owasp-06" class="toggle-label">A06: Vulnerable and Outdated Components</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-07" id="owasp-07" class='filter-toggle' value="A07:2021">
+          <label for="owasp-07" class="toggle-label">A07: Identification and Authentication Failures</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-08" id="owasp-08" class='filter-toggle' value="A08:2021">
+          <label for="owasp-08" class="toggle-label">A08: Software and Data Integrity Failures</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-09" id="owasp-09" class='filter-toggle' value="A09:2021">
+          <label for="owasp-09" class="toggle-label">A09: Security Logging and Monitoring Failures</label>
+        </li>
+        <li>
+          <input type="checkbox" name="owasp-10" id="owasp-10" class='filter-toggle' value="A10:2021">
+          <label for="owasp-10" class="toggle-label">A10: Server Side Request Forgery</label>
+        </li>
+      </ul>
+    </div>
+  </div>
+</form>
+
+<ul class="flex flex-col gap-4 not-prose list-none p-0">
+  {% for rule in rules.rules | sortById %}
+    <li class="block rounded border-2 border-neutral-200 dark:border-neutral-500 p-4 js-rule">
+      <a href="/reference/rules/{{rule.metadata.id}}/">
+        <h2 class="font-bold text-main dark:text-main-300">{{rule.metadata.id}}</h2>
+        <p>
+          {{rule.metadata.description}}
+        </p>
+      </a>
+      <div>
+        <ul class="flex flex-wrap gap-2 justify-end">
+          {% if rule.languages %}
+            <li class="text-xs py-1 px-2 rounded-full bg-neutral-200 dark:bg-code">{{rule.languages | join(", ") | upper }}</li>
+          {% endif %}
+          {% for id in rule.metadata.cwe_id %}
+            <li class="text-xs py-1 px-2 rounded-full bg-neutral-200 dark:bg-code">CWE-{{id}}</li>
+          {% endfor %}
+          {% for id in rule.owasp_ids %}
+            <li class="text-xs py-1 px-2 rounded-full bg-neutral-200 dark:bg-code">{{id}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+<script src="/rule-search.js"></script>

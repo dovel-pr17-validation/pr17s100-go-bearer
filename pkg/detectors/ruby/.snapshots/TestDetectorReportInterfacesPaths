@@ -1,0 +1,212 @@
+([]*detections.Detection) (len=6) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=9) "interface",
+    DetectorType: (detectors.Type) (len=4) "ruby",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.rb",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Ruby",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(38),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(38),
+      EndColumnNumber: (*int)(120),
+      Text: (*string)((len=115) "\"#{ENV['CUSTOMERS_HOST']}:#{ENV['CUSTOMER_HOST_PORT']}/api/delivery-messages?num_page=#{page}&filters[]=#{filters}\"")
+    },
+    Value: (interfaces.Interface) {
+      Type: (interfaces.Type) (len=3) "url",
+      Value: (*values.Value)({
+        Parts: ([]values.Part) (len=7) {
+          (*values.VariableReference)({
+            Type: (values.PartType) (len=18) "variable_reference",
+            Identifier: (variables.Identifier) {
+              Type: (variables.Type) (len=11) "environment",
+              Name: (string) (len=14) "CUSTOMERS_HOST"
+            }
+          }),
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=1) ":"
+          }),
+          (*values.VariableReference)({
+            Type: (values.PartType) (len=18) "variable_reference",
+            Identifier: (variables.Identifier) {
+              Type: (variables.Type) (len=11) "environment",
+              Name: (string) (len=18) "CUSTOMER_HOST_PORT"
+            }
+          }),
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=32) "/api/delivery-messages?num_page="
+          }),
+          (*values.VariableReference)({
+            Type: (values.PartType) (len=18) "variable_reference",
+            Identifier: (variables.Identifier) {
+              Type: (variables.Type) (len=8) "variable",
+              Name: (string) (len=4) "page"
+            }
+          }),
+          (*values.String)({
+            Type: (values.PartType) (len=6) "string",
+            Value: (string) (len=11) "&filters[]="
+          }),
+          (*values.VariableReference)({
+            Type: (values.PartType) (len=18) "variable_reference",
+            Identifier: (variables.Identifier) {
+              Type: (variables.Type) (len=8) "variable",
+              Name: (string) (len=7) "filters"
+            }
+          })
+        }
+      }),
+      VariableName: (string) ""
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=4) "ruby",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.rb",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Ruby",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(27),
+      StartColumnNumber: (*int)(66),
+      EndLineNumber: (*int)(27),
+      EndColumnNumber: (*int)(69),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "platform",
+      ObjectUUID: (string) (len=1) "8",
+      FieldName: (string) (len=3) "foo",
+      FieldUUID: (string) (len=1) "9",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "platform",
+      NormalizedFieldName: (string) (len=3) "foo"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=4) "ruby",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.rb",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Ruby",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(65),
+      StartColumnNumber: (*int)(40),
+      EndLineNumber: (*int)(65),
+      EndColumnNumber: (*int)(44),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "now",
+      ObjectUUID: (string) (len=2) "21",
+      FieldName: (string) (len=4) "to_i",
+      FieldUUID: (string) (len=2) "22",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "now",
+      NormalizedFieldName: (string) (len=4) "to_i"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=4) "ruby",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.rb",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Ruby",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(65),
+      StartColumnNumber: (*int)(78),
+      EndLineNumber: (*int)(65),
+      EndColumnNumber: (*int)(87),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "current",
+      ObjectUUID: (string) (len=2) "24",
+      FieldName: (string) (len=9) "object_id",
+      FieldUUID: (string) (len=2) "25",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "current",
+      NormalizedFieldName: (string) (len=9) "object_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=4) "ruby",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.rb",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Ruby",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(69),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(69),
+      EndColumnNumber: (*int)(22),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "logger",
+      ObjectUUID: (string) (len=2) "26",
+      FieldName: (string) (len=9) "formatter",
+      FieldUUID: (string) (len=2) "27",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "logger",
+      NormalizedFieldName: (string) (len=9) "formatter"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=4) "ruby",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=7) "main.rb",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "Ruby",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(71),
+      StartColumnNumber: (*int)(32),
+      EndLineNumber: (*int)(71),
+      EndColumnNumber: (*int)(40),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "datetime",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=8) "strftime",
+      FieldUUID: (string) (len=2) "29",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "datetime",
+      NormalizedFieldName: (string) (len=8) "strftime"
+    }
+  })
+}

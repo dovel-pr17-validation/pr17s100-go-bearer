@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-padding-top: 6.75rem;
+  }
+
+  .wrap {
+    max-width: 96rem;
+  }
+}
+
+@layer components {
+  /* Layout */
+  .content {
+    width: calc(100%-13rem);
+  }
+
+  /* Custom Grid Elements */
+
+  .docs-grid {
+    display: grid;
+    grid-template-areas: "side doc";
+  }
+
+  /* Buttons */
+  .btn {
+    @apply py-2 px-4  rounded-full;
+  }
+
+  .btn-primary {
+    @apply btn bg-gradient-to-b from-main-300 to-main-400 text-neutral-100;
+  }
+
+  .btn-ghost {
+    @apply btn dark:text-neutral-100 text-black border-solid border-2 border-black dark:border-neutral-100;
+  }
+
+  .btn-fancy {
+    @apply btn border-solid border-2;
+    border-color: transparent;
+    background-image: linear-gradient(
+        theme("colors.white"),
+        theme("colors.white")
+      ),
+      linear-gradient(
+        to bottom,
+        theme("colors.main.300"),
+        theme("colors.main.400")
+      );
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+  .btn-fancy-dark {
+    background-image: linear-gradient(
+        theme("colors.neutral.600"),
+        theme("colors.neutral.600")
+      ),
+      linear-gradient(
+        to bottom,
+        theme("colors.main.300"),
+        theme("colors.main.400")
+      );
+  }
+
+  .btn-fancy:hover,
+  .btn-fancy-dark:hover {
+    @apply btn-primary;
+  }
+
+  /* code blocks */
+  code {
+    max-width: 100%;
+  }
+
+  .mermaid {
+    background-color: theme("colors.code");
+  }
+
+  .mermaid svg {
+    margin: 0 auto;
+  }
+
+  /* ToC */
+
+  .toc {
+    @apply leading-normal;
+    overscroll-behavior: auto;
+    scrollbar-width: none;
+    overflow-y: scroll;
+  }
+  .toc ol li ol {
+    @apply pl-4;
+  }
+
+  .toc a:hover {
+    @apply underline;
+  }
+  .toc li a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+  }
+
+  /* active page nav */
+  [aria-current="page"] {
+    @apply text-main dark:text-main-300 font-semibold;
+  }
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+  details[open] span {
+    @apply rotate-0;
+  }
+
+  .start-self {
+    align-self: start;
+  }
+  .revert {
+    display: revert;
+  }
+
+  .light-icon {
+    display: inline-block;
+  }
+  .dark .light-icon {
+    display: none;
+  }
+  .dark-icon {
+    display: none;
+  }
+  .dark .dark-icon {
+    display: inline-block;
+  }
+
+  .breadcrumbs li:not(:last-of-type)::after {
+    display: inline-block;
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: 0.25em;
+    border-top: 0.3em solid transparent;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.3em solid theme("colors.neutral.400");
+  }
+
+  .min-content-height {
+    min-height: calc(100vh - theme("spacing.heading-offset"));
+  }
+
+  /* checkboxes */
+
+  .filter-toggle {
+    @apply sr-only;
+  }
+
+  .toggle-label {
+    @apply text-sm block rounded px-2 py-2 bg-neutral-200 text-neutral-400 border-2 border-solid border-transparent dark:bg-code dark:text-neutral-100;
+  }
+  .filter-toggle:checked + .toggle-label {
+    @apply bg-main-400 dark:bg-main-300 text-neutral-100 border-main-400 dark:border-main-300;
+  }
+  .filter-toggle:focus + .toggle-label {
+    @apply border-neutral-300;
+  }
+
+  .filter-open .js-filter-list {
+    @apply flex max-w-sm flex-col gap-2 absolute bg-white dark:bg-black mt-2 p-2 right-0 w-max rounded border-main dark:border-code border-2;
+  }
+  .filter-open .js-filter-button {
+    @apply border-main dark:border-code;
+  }
+}
+
+@layer utilities {
+}
+
+.hidden {
+  display: none;
+}
+.open {
+  display: block;
+}
+
+@media (max-width: 639px) {
+  #doc-nav.open {
+    @apply text-2xl;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 5.75rem;
+    @apply px-8;
+    overflow-y: scroll;
+  }
+}
+
+.flip {
+  transform: rotate(180deg);
+}

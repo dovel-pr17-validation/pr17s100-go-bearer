@@ -1,0 +1,23 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "MangoPay",
+  "type": "external_service",
+  "urls": [
+    "https://api.sandbox.mangopay.com",
+    "https://api.mangopay.com"
+  ],
+  "packages": [
+    {
+      "name": "github.com/bgruszka/mangopay2-go-sdk",
+      "group": null,
+      "package_manager": "go"
+    },
+    {
+      "name": "github.com/gotsunami/mangopay2-go-sdk",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "e1662fc3-1481-4d4a-8fd1-979cfc22dc37",
+  "sub_type": "third_party"
+}

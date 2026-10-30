@@ -1,0 +1,71 @@
+([]*detections.Detection) (len=3) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=9) "pyproject",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "pyproject.toml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(8),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(8),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=6) "python",
+      Version: (string) (len=4) "^3.7"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=9) "pyproject",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "pyproject.toml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(9),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(9),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=11) "synapse-p2p",
+      Version: (string) (len=6) "^0.1.4"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=9) "pyproject",
+    DetectorLanguage: (detectors.Language) (len=6) "python",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=14) "pyproject.toml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "TOML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(0),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=4) "pypi",
+      Group: (string) "",
+      Name: (string) (len=5) "faker",
+      Version: (string) (len=4) "^1.0"
+    }
+  })
+}

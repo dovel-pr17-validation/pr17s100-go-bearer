@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Forestadmin",
+  "type": "external_service",
+  "urls": [
+    "https://api.forestadmin.com"
+  ],
+  "packages": [],
+  "uuid": "fa8f7ed9-b1c3-40ec-98c8-5c9ac089e1a6",
+  "sub_type": "third_party"
+}

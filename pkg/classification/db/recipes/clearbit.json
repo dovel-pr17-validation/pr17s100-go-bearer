@@ -1,0 +1,39 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Clearbit",
+  "type": "external_service",
+  "urls": [
+    "https://autocomplete.clearbit.com",
+    "https://reveal.clearbit.com",
+    "https://risk.clearbit.com",
+    "https://prospector.clearbit.com",
+    "https://discovery.clearbit.com",
+    "https://company.clearbit.com",
+    "https://logo.clearbit.com",
+    "https://person.clearbit.com"
+  ],
+  "packages": [
+    {
+      "name": "clearbit",
+      "group": null,
+      "package_manager": "pypi"
+    },
+    {
+      "name": "clearbit",
+      "group": null,
+      "package_manager": "npm"
+    },
+    {
+      "name": "clearbit",
+      "group": null,
+      "package_manager": "rubygems"
+    },
+    {
+      "name": "github.com/clearbit/clearbit-go",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "d18fea8d-8ccc-49cc-8e7c-af05e30bdce9",
+  "sub_type": "third_party"
+}

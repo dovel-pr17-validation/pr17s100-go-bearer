@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "GoCardless",
+  "type": "external_service",
+  "urls": [
+    "https://pay-sandbox.gocardless.com/js/",
+    "https://api-sandbox.gocardless.com",
+    "https://api.gocardless.com",
+    "https://connect.gocardless.com",
+    "https://connect-sandbox.gocardless.com"
+  ],
+  "packages": [],
+  "uuid": "45d741a5-24f5-4943-9932-91b94d607f0c",
+  "sub_type": "third_party"
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Mixpanel",
+  "type": "external_service",
+  "urls": [
+    "https://cdn.mxpnl.com/libs/",
+    "https://mixpanel.com/api",
+    "https://api-eu.mixpanel.com",
+    "https://api.mixpanel.com"
+  ],
+  "packages": [
+    {
+      "name": "react-mixpanel",
+      "group": null,
+      "package_manager": "npm"
+    },
+    {
+      "name": "github.com/dukex/mixpanel",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "5ca35c2c-7b66-4ed1-a45a-b2556f88749f",
+  "sub_type": "third_party"
+}

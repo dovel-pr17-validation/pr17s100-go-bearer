@@ -1,0 +1,94 @@
+---
+pagination:
+  data: rules.rules
+  size: 1
+  alias: rule
+  addAllPagesToCollections: true
+permalink: "reference/rules/{{ rule.metadata.id | slug }}/"
+layout: layouts/doc.njk
+breadcrumbs:
+  - name: Rules
+    path: /reference/rules/
+eleventyComputed:
+  title: "Rule - {{ rule.metadata.description }}"
+---
+
+<h1>{{rule.metadata.description}}</h1>
+<ul class="not-prose list-none m-0 p-0">
+  <li>
+    <strong>Rule ID:</strong>
+    {{rule.metadata.id}}</li>
+
+  {% if rule.languages %}
+    <li>
+      <strong>Languages:</strong>
+      {{rule.languages}}</li>
+  {% endif %}
+  <li>
+    <strong>Source:</strong>
+    {% if rule.metadata.id == "gitleaks" %}
+    N/A
+    {% else %}
+    <a class="text-main dark:text-main-300 hover:underline" href="https://github.com/bearer/bearer-rules/blob/main/rules/{{rule.location}}.yml">{{rule.name}}.yml</a>
+    {% endif %}
+  </li>
+</ul>
+{% renderTemplate 'liquid,md',
+rule.metadata %}
+
+{{remediation_message}}
+
+{% endrenderTemplate %}
+
+{% if rule.metadata.cwe_id | length %}
+  <h2 id="associated-cwe">Associated CWE</h2>
+  <ul>
+    {% for id in rule.metadata.cwe_id %}
+      <li>
+        <a href="https://cwe.mitre.org/data/definitions/{{id}}.html">
+    CWE-{{id}}: {{cweList[id].name}}
+        </a>
+      </li>
+      {% endfor%}
+    </ul>
+    {% if rule.owasp_ids | length %}
+      <h2 id="owasp-top10">OWASP Top 10</h2>
+      <ul>
+        {% for value in rule.owasp_ids %}
+          <li>
+            <a href="{{owaspURLs[value].url}}">
+              {{value}} - {{owaspURLs[value].name}}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endif %}
+  {% if rule.metadata.id != "gitleaks" %}
+  {% renderTemplate "liquid,md",
+  rule.metadata %}
+  ## Configuration
+
+  To skip this rule during a scan, use the following flag
+  ```shell
+  bearer scan /path/to/your-project/ --skip-rule={{id}}
+  ```
+
+  To run _only_ this rule during a scan, use the following flag
+  ```shell
+  bearer scan /path/to/your-project/ --only-rule={{id}}
+  ```
+{% endrenderTemplate %}
+{% else %}
+  {% renderTemplate "liquid,md",
+  rule.metadata %}
+  ## Configuration
+
+  This is a built in rule that represents findings from the secrets scanner.
+
+  To enable this during a scan, use the following flag
+  ```shell
+  bearer scan /path/to/your-project/ --scanner=secrets,sast
+  ```
+{% endrenderTemplate %}
+{% endif %}

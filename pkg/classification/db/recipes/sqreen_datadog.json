@@ -1,0 +1,24 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Sqreen (Datadog)",
+  "type": "external_service",
+  "urls": [
+    "https://back.sqreen.com",
+    "https://ingestion.sqreen.com",
+    "https://back.sqreen.io"
+  ],
+  "packages": [
+    {
+      "name": "sqreen",
+      "group": null,
+      "package_manager": "rubygems"
+    },
+    {
+      "name": "manomano/sqreen-lib",
+      "group": null,
+      "package_manager": "packagist"
+    }
+  ],
+  "uuid": "79afcebc-9594-4463-ac3c-6030419061e6",
+  "sub_type": "third_party"
+}

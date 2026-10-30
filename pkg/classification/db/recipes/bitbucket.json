@@ -1,0 +1,22 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Bitbucket",
+  "type": "external_service",
+  "urls": [
+    "https://api.bitbucket.org"
+  ],
+  "packages": [
+    {
+      "name": "github.com/ktrysmt/go-bitbucket",
+      "group": null,
+      "package_manager": "go"
+    },
+    {
+      "name": "github.com/gfleury/go-bitbucket-v1",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "fdf90f2b-930a-4bd8-93ff-d2acdf4d6032",
+  "sub_type": "third_party"
+}

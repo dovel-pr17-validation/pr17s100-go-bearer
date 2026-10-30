@@ -1,0 +1,18 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Google Tag Manager",
+  "type": "external_service",
+  "urls": [
+    "https://googletagmanager.com/gtag/js",
+    "https://googletagmanager.com/gtm.js"
+  ],
+  "packages": [
+    {
+      "name": "play-services-tagmanager",
+      "group": "com.google.android.gms",
+      "package_manager": "maven"
+    }
+  ],
+  "uuid": "ed26c7c7-436b-450e-bfda-9c553fe81de6",
+  "sub_type": "third_party"
+}

@@ -1,0 +1,15 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Reddit",
+  "type": "external_service",
+  "urls": [],
+  "packages": [
+    {
+      "name": "github.com/caarlos0/go-reddit/v3",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "d5b7521b-af39-4fd6-9fce-35af5576bf3a",
+  "sub_type": "third_party"
+}

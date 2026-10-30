@@ -1,0 +1,1133 @@
+([]*detections.Detection) (len=39) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(3),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(3),
+      EndColumnNumber: (*int)(9),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(5),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(5),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "2",
+      FieldName: (string) (len=3) "bol",
+      FieldUUID: (string) (len=1) "4",
+      FieldType: (string) (len=14) "boolean | null",
+      SimpleFieldType: (string) (len=7) "boolean",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=3) "bol"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(13),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "User",
+      ObjectUUID: (string) (len=1) "5",
+      FieldName: (string) (len=8) "lastname",
+      FieldUUID: (string) (len=1) "6",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "user",
+      NormalizedFieldName: (string) (len=8) "lastname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(19),
+      EndColumnNumber: (*int)(12),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "TestUser",
+      ObjectUUID: (string) (len=1) "8",
+      FieldName: (string) (len=7) "test_id",
+      FieldUUID: (string) (len=1) "9",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "testuser",
+      NormalizedFieldName: (string) (len=7) "test_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(21),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Cat",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=5) "breed",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "cat",
+      NormalizedFieldName: (string) (len=5) "breed"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(36),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(47),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Cat",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=11) "yearOfBirth",
+      FieldUUID: (string) (len=2) "12",
+      FieldType: (string) (len=6) "number",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "cat",
+      NormalizedFieldName: (string) (len=11) "yearofbirth"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(27),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(27),
+      EndColumnNumber: (*int)(7),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Complex",
+      ObjectUUID: (string) (len=2) "13",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "14",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "complex",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(28),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(28),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Complex",
+      ObjectUUID: (string) (len=2) "13",
+      FieldName: (string) (len=7) "surname",
+      FieldUUID: (string) (len=2) "15",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "complex",
+      NormalizedFieldName: (string) (len=7) "surname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(33),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(33),
+      EndColumnNumber: (*int)(13),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=21) "CloudinaryImageFormat",
+      ObjectUUID: (string) (len=2) "16",
+      FieldName: (string) (len=10) "prettyName",
+      FieldUUID: (string) (len=2) "17",
+      FieldType: (string) (len=13) "string | null",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=21) "cloudinaryimageformat",
+      NormalizedFieldName: (string) (len=10) "prettyname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(34),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(34),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=21) "CloudinaryImageFormat",
+      ObjectUUID: (string) (len=2) "16",
+      FieldName: (string) (len=8) "roomInfo",
+      FieldUUID: (string) (len=2) "18",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=21) "cloudinaryimageformat",
+      NormalizedFieldName: (string) (len=8) "roominfo"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(35),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(35),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "roomInfo",
+      ObjectUUID: (string) (len=2) "18",
+      FieldName: (string) (len=7) "room_id",
+      FieldUUID: (string) (len=2) "19",
+      FieldType: (string) (len=6) "number",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "roominfo",
+      NormalizedFieldName: (string) (len=7) "room_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "roomInfo",
+      ObjectUUID: (string) (len=2) "18",
+      FieldName: (string) (len=8) "short_id",
+      FieldUUID: (string) (len=2) "20",
+      FieldType: (string) (len=6) "number",
+      SimpleFieldType: (string) (len=6) "number",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "roominfo",
+      NormalizedFieldName: (string) (len=8) "short_id"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(42),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(42),
+      EndColumnNumber: (*int)(10),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "Addressable",
+      ObjectUUID: (string) (len=2) "21",
+      FieldName: (string) (len=7) "address",
+      FieldUUID: (string) (len=2) "22",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=11) "addressable",
+      NormalizedFieldName: (string) (len=7) "address"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(43),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(43),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "Addressable",
+      ObjectUUID: (string) (len=2) "21",
+      FieldName: (string) (len=8) "address2",
+      FieldUUID: (string) (len=2) "23",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=11) "addressable",
+      NormalizedFieldName: (string) (len=8) "address2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(44),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(44),
+      EndColumnNumber: (*int)(7),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=11) "Addressable",
+      ObjectUUID: (string) (len=2) "21",
+      FieldName: (string) (len=4) "item",
+      FieldUUID: (string) (len=2) "24",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=11) "addressable",
+      NormalizedFieldName: (string) (len=4) "item"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(46),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(46),
+      EndColumnNumber: (*int)(12),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "item",
+      ObjectUUID: (string) (len=2) "24",
+      FieldName: (string) (len=7) "channel",
+      FieldUUID: (string) (len=2) "25",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "item",
+      NormalizedFieldName: (string) (len=7) "channel"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(47),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(47),
+      EndColumnNumber: (*int)(8),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "item",
+      ObjectUUID: (string) (len=2) "24",
+      FieldName: (string) (len=3) "zip",
+      FieldUUID: (string) (len=2) "26",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "item",
+      NormalizedFieldName: (string) (len=3) "zip"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(48),
+      StartColumnNumber: (*int)(7),
+      EndLineNumber: (*int)(48),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "zip",
+      ObjectUUID: (string) (len=2) "26",
+      FieldName: (string) (len=4) "code",
+      FieldUUID: (string) (len=2) "27",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "zip",
+      NormalizedFieldName: (string) (len=4) "code"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(59),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(70),
+      EndColumnNumber: (*int)(4),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "CloudinaryAdapter",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=11) "constructor",
+      FieldUUID: (string) (len=2) "29",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=17) "cloudinaryadapter",
+      NormalizedFieldName: (string) (len=11) "constructor"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(65),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(65),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "CloudinaryAdapter",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=9) "cloudName",
+      FieldUUID: (string) (len=2) "30",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=17) "cloudinaryadapter",
+      NormalizedFieldName: (string) (len=9) "cloudname"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(66),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(66),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "CloudinaryAdapter",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=6) "apiKey",
+      FieldUUID: (string) (len=2) "31",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=17) "cloudinaryadapter",
+      NormalizedFieldName: (string) (len=6) "apikey"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(67),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(67),
+      EndColumnNumber: (*int)(14),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "CloudinaryAdapter",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=9) "apiSecret",
+      FieldUUID: (string) (len=2) "32",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=17) "cloudinaryadapter",
+      NormalizedFieldName: (string) (len=9) "apisecret"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(68),
+      StartColumnNumber: (*int)(5),
+      EndLineNumber: (*int)(68),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "CloudinaryAdapter",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=6) "folder",
+      FieldUUID: (string) (len=2) "33",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=17) "cloudinaryadapter",
+      NormalizedFieldName: (string) (len=6) "folder"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(73),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(74),
+      EndColumnNumber: (*int)(4),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=17) "CloudinaryAdapter",
+      ObjectUUID: (string) (len=2) "28",
+      FieldName: (string) (len=4) "save",
+      FieldUUID: (string) (len=2) "34",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=17) "cloudinaryadapter",
+      NormalizedFieldName: (string) (len=4) "save"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(79),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(79),
+      EndColumnNumber: (*int)(7),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "Base",
+      ObjectUUID: (string) (len=2) "36",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "37",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "base",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(80),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(82),
+      EndColumnNumber: (*int)(4),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "Base",
+      ObjectUUID: (string) (len=2) "36",
+      FieldName: (string) (len=11) "constructor",
+      FieldUUID: (string) (len=2) "38",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "base",
+      NormalizedFieldName: (string) (len=11) "constructor"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(88),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(88),
+      EndColumnNumber: (*int)(7),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=7) "Derived",
+      ObjectUUID: (string) (len=2) "39",
+      FieldName: (string) (len=4) "name",
+      FieldUUID: (string) (len=2) "40",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=7) "derived",
+      NormalizedFieldName: (string) (len=4) "name"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(93),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(93),
+      EndColumnNumber: (*int)(11),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Box",
+      ObjectUUID: (string) (len=2) "41",
+      FieldName: (string) (len=8) "contents",
+      FieldUUID: (string) (len=2) "42",
+      FieldType: (string) (len=4) "Type",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "box",
+      NormalizedFieldName: (string) (len=7) "content"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(95),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(97),
+      EndColumnNumber: (*int)(4),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Box",
+      ObjectUUID: (string) (len=2) "41",
+      FieldName: (string) (len=11) "constructor",
+      FieldUUID: (string) (len=2) "43",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "box",
+      NormalizedFieldName: (string) (len=11) "constructor"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(99),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(99),
+      EndColumnNumber: (*int)(47),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Box",
+      ObjectUUID: (string) (len=2) "41",
+      FieldName: (string) (len=4) "save",
+      FieldUUID: (string) (len=2) "44",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "box",
+      NormalizedFieldName: (string) (len=4) "save"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(99),
+      StartColumnNumber: (*int)(20),
+      EndLineNumber: (*int)(99),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "something",
+      ObjectUUID: (string) (len=2) "47",
+      FieldName: (string) (len=6) "parent",
+      FieldUUID: (string) (len=2) "48",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "something",
+      NormalizedFieldName: (string) (len=6) "parent"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(99),
+      StartColumnNumber: (*int)(28),
+      EndLineNumber: (*int)(99),
+      EndColumnNumber: (*int)(34),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "parent",
+      ObjectUUID: (string) (len=2) "48",
+      FieldName: (string) (len=6) "nested",
+      FieldUUID: (string) (len=2) "49",
+      FieldType: (string) (len=6) "string",
+      SimpleFieldType: (string) (len=6) "string",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "parent",
+      NormalizedFieldName: (string) (len=6) "nested"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(104),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(104),
+      EndColumnNumber: (*int)(22),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "EventManager",
+      ObjectUUID: (string) (len=2) "50",
+      FieldName: (string) (len=11) "RNOneSignal",
+      FieldUUID: (string) (len=2) "51",
+      FieldType: (string) (len=12) "NativeModule",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "eventmanager",
+      NormalizedFieldName: (string) (len=11) "rnonesignal"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(105),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(105),
+      EndColumnNumber: (*int)(32),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "EventManager",
+      ObjectUUID: (string) (len=2) "50",
+      FieldName: (string) (len=21) "oneSignalEventEmitter",
+      FieldUUID: (string) (len=2) "52",
+      FieldType: (string) (len=18) "NativeEventEmitter",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "eventmanager",
+      NormalizedFieldName: (string) (len=21) "onesignaleventemitter"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(106),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(106),
+      EndColumnNumber: (*int)(26),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "EventManager",
+      ObjectUUID: (string) (len=2) "50",
+      FieldName: (string) (len=15) "eventHandlerMap",
+      FieldUUID: (string) (len=2) "53",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "eventmanager",
+      NormalizedFieldName: (string) (len=15) "eventhandlermap"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(107),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(107),
+      EndColumnNumber: (*int)(31),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "EventManager",
+      ObjectUUID: (string) (len=2) "50",
+      FieldName: (string) (len=20) "eventHandlerArrayMap",
+      FieldUUID: (string) (len=2) "54",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "eventmanager",
+      NormalizedFieldName: (string) (len=20) "eventhandlerarraymap"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(108),
+      StartColumnNumber: (*int)(11),
+      EndLineNumber: (*int)(108),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "EventManager",
+      ObjectUUID: (string) (len=2) "50",
+      FieldName: (string) (len=9) "listeners",
+      FieldUUID: (string) (len=2) "55",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=6) "object",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "eventmanager",
+      NormalizedFieldName: (string) (len=8) "listener"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(111),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(112),
+      EndColumnNumber: (*int)(4),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "EventManager",
+      ObjectUUID: (string) (len=2) "50",
+      FieldName: (string) (len=7) "getTags",
+      FieldUUID: (string) (len=2) "56",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "eventmanager",
+      NormalizedFieldName: (string) (len=6) "gettag"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=10) "typescript",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=9) "schema.ts",
+      FullFilename: (string) "",
+      Language: (string) (len=10) "TypeScript",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(115),
+      StartColumnNumber: (*int)(3),
+      EndLineNumber: (*int)(116),
+      EndColumnNumber: (*int)(4),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=12) "EventManager",
+      ObjectUUID: (string) (len=2) "50",
+      FieldName: (string) (len=12) "setSMSNumber",
+      FieldUUID: (string) (len=2) "57",
+      FieldType: (string) (len=8) "function",
+      SimpleFieldType: (string) (len=8) "function",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=12) "eventmanager",
+      NormalizedFieldName: (string) (len=12) "setsmsnumber"
+    }
+  })
+}

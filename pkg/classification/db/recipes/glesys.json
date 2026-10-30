@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Glesys",
+  "type": "external_service",
+  "urls": [
+    "https://api.glesys.com"
+  ],
+  "packages": [],
+  "uuid": "eb4120e6-d5a7-4e2d-a352-b5471327679e",
+  "sub_type": "third_party"
+}

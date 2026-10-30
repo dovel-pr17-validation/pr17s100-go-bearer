@@ -1,0 +1,14 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "MUX",
+  "type": "external_service",
+  "urls": [
+    "https://image.mux.com",
+    "https://stream.mux.com",
+    "https://api.mux.com/data",
+    "https://api.mux.com/video"
+  ],
+  "packages": [],
+  "uuid": "ebd4ef05-37f9-49a3-8fbf-a26071f7ee13",
+  "sub_type": "third_party"
+}

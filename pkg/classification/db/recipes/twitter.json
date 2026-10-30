@@ -1,0 +1,40 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Twitter",
+  "type": "external_service",
+  "urls": [
+    "http://platform.twitter.com/widgets.js",
+    "https://stream.twitter.com",
+    "https://ads-api.twitter.com",
+    "https://api.twitter.com"
+  ],
+  "packages": [
+    {
+      "name": "search-tweets-python",
+      "group": null,
+      "package_manager": "pypi"
+    },
+    {
+      "name": "twitter-autohook",
+      "group": null,
+      "package_manager": "npm"
+    },
+    {
+      "name": "search-tweets-ruby",
+      "group": null,
+      "package_manager": "rubygems"
+    },
+    {
+      "name": "twitter",
+      "group": null,
+      "package_manager": "rubygems"
+    },
+    {
+      "name": "github.com/dghubble/go-twitter",
+      "group": null,
+      "package_manager": "go"
+    }
+  ],
+  "uuid": "09155a1d-adec-4839-bebe-2da267fd670c",
+  "sub_type": "third_party"
+}

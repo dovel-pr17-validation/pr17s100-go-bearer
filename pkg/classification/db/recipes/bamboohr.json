@@ -1,0 +1,11 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "BambooHR",
+  "type": "external_service",
+  "urls": [
+    "https://api.bamboohr.com"
+  ],
+  "packages": [],
+  "uuid": "5fff4ef9-78fd-4119-9549-f638ea042a3a",
+  "sub_type": "third_party"
+}

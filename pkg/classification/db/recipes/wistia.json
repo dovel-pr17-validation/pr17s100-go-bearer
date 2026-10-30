@@ -1,0 +1,13 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Wistia",
+  "type": "external_service",
+  "urls": [
+    "https://api.wistia.com",
+    "https://upload.wistia.com",
+    "https://fast.wistia.com"
+  ],
+  "packages": [],
+  "uuid": "d723116b-1272-4ead-a92a-415df7c8ad1c",
+  "sub_type": "third_party"
+}

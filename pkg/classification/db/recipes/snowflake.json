@@ -1,0 +1,30 @@
+{
+  "metadata": { "version": "1.0" },
+  "name": "Snowflake",
+  "type": "data_store",
+  "urls": [],
+  "packages": [
+    {
+      "name": "dbt-snowflake",
+      "group": null,
+      "package_manager": "pypi"
+    },
+    {
+      "name": "snowflake-connector-python",
+      "group": null,
+      "package_manager": "pypi"
+    },
+    {
+      "name": "github.com/snowflakedb/gosnowflake",
+      "group": null,
+      "package_manager": "go"
+    },
+    {
+      "name": "snowflake-sdk",
+      "group": null,
+      "package_manager": "npm"
+    }
+  ],
+  "uuid": "1b018aaf-fa0e-4981-a417-f3bb03bd7a7f",
+  "sub_type": "datalake"
+}

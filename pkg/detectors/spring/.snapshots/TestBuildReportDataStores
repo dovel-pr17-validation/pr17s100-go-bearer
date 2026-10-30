@@ -1,0 +1,162 @@
+([]*detections.FrameworkDetection) (len=8) {
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=41) "src/main/resources/application.properties",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "INI",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) (len=2) "h2"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=34) "src/main/resources/application.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) (len=2) "h2"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=42) "src/main/resources2/application.properties",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "INI",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) (len=21) "com.mysql.jdbc.Driver"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=35) "src/main/resources2/application.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) (len=21) "com.mysql.jdbc.Driver"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=42) "src/main/resources3/application.properties",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "INI",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) (len=26) "com.postgresql.jdbc.Driver"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=35) "src/main/resources3/application.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) (len=26) "com.postgresql.jdbc.Driver"
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=42) "src/main/resources4/application.properties",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "INI",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) ""
+    }
+  }),
+  (*detections.FrameworkDetection)({
+    Type: (detections.DetectionType) (len=9) "framework",
+    DetectorType: (detectors.Type) (len=6) "spring",
+    FrameworkType: (frameworks.Type) (len=8) "database",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=35) "src/main/resources4/application.yml",
+      FullFilename: (string) "",
+      Language: (string) (len=4) "YAML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(<nil>),
+      EndLineNumber: (*int)(<nil>),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (spring.DataStore) {
+      Driver: (string) ""
+    }
+  })
+}

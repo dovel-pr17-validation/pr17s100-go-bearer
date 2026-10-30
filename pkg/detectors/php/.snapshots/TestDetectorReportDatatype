@@ -1,0 +1,814 @@
+([]*detections.Detection) (len=28) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(23),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Foo",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=10) "aMemberVar",
+      FieldUUID: (string) (len=1) "3",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "foo",
+      NormalizedFieldName: (string) (len=10) "amembervar"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(5),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(5),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Foo",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=1) "4",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "foo",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(7),
+      StartColumnNumber: (*int)(14),
+      EndLineNumber: (*int)(7),
+      EndColumnNumber: (*int)(25),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Foo",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=11) "aMemberFunc",
+      FieldUUID: (string) (len=1) "2",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "foo",
+      NormalizedFieldName: (string) (len=11) "amemberfunc"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(16),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(20),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Foo",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=1) "4",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "foo",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(10),
+      StartColumnNumber: (*int)(22),
+      EndLineNumber: (*int)(10),
+      EndColumnNumber: (*int)(29),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "test",
+      ObjectUUID: (string) (len=1) "4",
+      FieldName: (string) (len=7) "subtest",
+      FieldUUID: (string) (len=1) "5",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=7) "subtest"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(11),
+      StartColumnNumber: (*int)(16),
+      EndLineNumber: (*int)(11),
+      EndColumnNumber: (*int)(21),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=3) "Foo",
+      ObjectUUID: (string) (len=1) "1",
+      FieldName: (string) (len=5) "test2",
+      FieldUUID: (string) (len=1) "6",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=3) "foo",
+      NormalizedFieldName: (string) (len=5) "test2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(11),
+      StartColumnNumber: (*int)(23),
+      EndLineNumber: (*int)(11),
+      EndColumnNumber: (*int)(31),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test2",
+      ObjectUUID: (string) (len=1) "6",
+      FieldName: (string) (len=8) "subtest2",
+      FieldUUID: (string) (len=1) "7",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test2",
+      NormalizedFieldName: (string) (len=8) "subtest2"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(17),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(17),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "parent",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=5) "child",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "parent",
+      NormalizedFieldName: (string) (len=5) "child"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(18),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(18),
+      EndColumnNumber: (*int)(21),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "parent",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=11) "childMethod",
+      FieldUUID: (string) (len=2) "15",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "parent",
+      NormalizedFieldName: (string) (len=11) "childmethod"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(19),
+      EndColumnNumber: (*int)(16),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "parent",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=5) "child",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "parent",
+      NormalizedFieldName: (string) (len=5) "child"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(19),
+      StartColumnNumber: (*int)(18),
+      EndLineNumber: (*int)(19),
+      EndColumnNumber: (*int)(28),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "child",
+      ObjectUUID: (string) (len=2) "11",
+      FieldName: (string) (len=10) "grandchild",
+      FieldUUID: (string) (len=2) "12",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "child",
+      NormalizedFieldName: (string) (len=10) "grandchild"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(20),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(20),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "parent",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=5) "child",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "parent",
+      NormalizedFieldName: (string) (len=5) "child"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(20),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(20),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "child",
+      ObjectUUID: (string) (len=2) "11",
+      FieldName: (string) (len=16) "grandchildMethod",
+      FieldUUID: (string) (len=2) "13",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "child",
+      NormalizedFieldName: (string) (len=16) "grandchildmethod"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(22),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(22),
+      EndColumnNumber: (*int)(21),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "parent",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=11) "childMethod",
+      FieldUUID: (string) (len=2) "15",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "parent",
+      NormalizedFieldName: (string) (len=11) "childmethod"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(22),
+      StartColumnNumber: (*int)(36),
+      EndLineNumber: (*int)(22),
+      EndColumnNumber: (*int)(50),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "subParent",
+      ObjectUUID: (string) (len=2) "16",
+      FieldName: (string) (len=14) "subChildMethod",
+      FieldUUID: (string) (len=2) "17",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "subparent",
+      NormalizedFieldName: (string) (len=14) "subchildmethod"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(10),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(15),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=6) "parent",
+      ObjectUUID: (string) (len=2) "10",
+      FieldName: (string) (len=5) "child",
+      FieldUUID: (string) (len=2) "11",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=6) "parent",
+      NormalizedFieldName: (string) (len=5) "child"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(33),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "child",
+      ObjectUUID: (string) (len=2) "11",
+      FieldName: (string) (len=16) "grandChildMethod",
+      FieldUUID: (string) (len=2) "14",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "child",
+      NormalizedFieldName: (string) (len=16) "grandchildmethod"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(48),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(56),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=9) "subParent",
+      ObjectUUID: (string) (len=2) "16",
+      FieldName: (string) (len=8) "subChild",
+      FieldUUID: (string) (len=2) "18",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=9) "subparent",
+      NormalizedFieldName: (string) (len=8) "subchild"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(23),
+      StartColumnNumber: (*int)(58),
+      EndLineNumber: (*int)(23),
+      EndColumnNumber: (*int)(77),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=8) "subChild",
+      ObjectUUID: (string) (len=2) "18",
+      FieldName: (string) (len=19) "subGrandChildMethod",
+      FieldUUID: (string) (len=2) "19",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=8) "subchild",
+      NormalizedFieldName: (string) (len=19) "subgrandchildmethod"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(27),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(27),
+      EndColumnNumber: (*int)(13),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "20",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "21",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(28),
+      StartColumnNumber: (*int)(9),
+      EndLineNumber: (*int)(28),
+      EndColumnNumber: (*int)(13),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "20",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "21",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(31),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(31),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "22",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "23",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(32),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(32),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "22",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "23",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(36),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(36),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "24",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "25",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(37),
+      StartColumnNumber: (*int)(13),
+      EndLineNumber: (*int)(37),
+      EndColumnNumber: (*int)(17),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "24",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "25",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(41),
+      StartColumnNumber: (*int)(21),
+      EndLineNumber: (*int)(41),
+      EndColumnNumber: (*int)(27),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=4) "Test",
+      ObjectUUID: (string) (len=1) "8",
+      FieldName: (string) (len=6) "method",
+      FieldUUID: (string) (len=1) "9",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=4) "test",
+      NormalizedFieldName: (string) (len=6) "method"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(42),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(42),
+      EndColumnNumber: (*int)(21),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "26",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "27",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=6) "schema",
+    DetectorType: (detectors.Type) (len=3) "php",
+    DetectorLanguage: (detectors.Language) "",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=12) "datatype.php",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "PHP",
+      LanguageType: (string) (len=11) "programming",
+      StartLineNumber: (*int)(43),
+      StartColumnNumber: (*int)(17),
+      EndLineNumber: (*int)(43),
+      EndColumnNumber: (*int)(21),
+      Text: (*string)(<nil>)
+    },
+    Value: (schema.Schema) {
+      ObjectName: (string) (len=5) "test1",
+      ObjectUUID: (string) (len=2) "26",
+      FieldName: (string) (len=4) "test",
+      FieldUUID: (string) (len=2) "27",
+      FieldType: (string) "",
+      SimpleFieldType: (string) (len=7) "unknown",
+      Classification: (interface {}) <nil>,
+      Source: (*schema.Source)(<nil>),
+      NormalizedObjectName: (string) (len=5) "test1",
+      NormalizedFieldName: (string) (len=4) "test"
+    }
+  })
+}

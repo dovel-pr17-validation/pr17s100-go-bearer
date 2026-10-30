@@ -1,0 +1,48 @@
+([]*detections.Detection) (len=2) {
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=14) "package-config",
+    DetectorLanguage: (detectors.Language) (len=6) "csharp",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "packages.config",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(3),
+      StartColumnNumber: (*int)(14),
+      EndLineNumber: (*int)(3),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "nuget",
+      Group: (string) "",
+      Name: (string) (len=50) "Microsoft.CodeDom.Providers.DotNetCompilerPlatform",
+      Version: (string) (len=5) "1.0.0"
+    }
+  }),
+  (*detections.Detection)({
+    Type: (detections.DetectionType) (len=10) "dependency",
+    DetectorType: (detectors.Type) (len=14) "package-config",
+    DetectorLanguage: (detectors.Language) (len=6) "csharp",
+    CommitSHA: (string) "",
+    Source: (source.Source) {
+      Filename: (string) (len=15) "packages.config",
+      FullFilename: (string) "",
+      Language: (string) (len=3) "XML",
+      LanguageType: (string) (len=4) "data",
+      StartLineNumber: (*int)(4),
+      StartColumnNumber: (*int)(14),
+      EndLineNumber: (*int)(4),
+      EndColumnNumber: (*int)(<nil>),
+      Text: (*string)(<nil>)
+    },
+    Value: (dependencies.Dependency) {
+      PackageManager: (string) (len=5) "nuget",
+      Group: (string) "",
+      Name: (string) (len=23) "Microsoft.Net.Compilers",
+      Version: (string) (len=5) "1.0.0"
+    }
+  })
+}
